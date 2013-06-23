@@ -1,3 +1,10 @@
+attica (0.4.2-0r1) UNRELEASED; urgency=low
+
+  [ Pino Toscano ]
+  * New upstream release.
+
+ -- Debian Krap Maintainers <debian-qt-kde@lists.debian.org>  Mon, 24 Jun 2013 01:24:28 +0200
+
 attica (0.4.1-2) unstable; urgency=low
 
   * Upload to unstable.
