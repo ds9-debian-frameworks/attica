@@ -26,7 +26,7 @@ Copyright:
     Copyright (c) 2010 Intel Corporation
     Copyright (c) 2010 Martin Sandsmark <martin.sandsmark@kde.org>
     Copyright (c) 2010 Sebastian Kügler <sebas@kde.org>
-    Copyright (c) 2011 Laszlo Papp <djszapi@archlinux.us>
+    Copyright (c) 2011-2012 Laszlo Papp <djszapi@archlinux.us> <lpapp@kde.org>
     Copyright (c) 2011 Tudorica Constantin-Alexandru <tudalex@gmail.com>
     Copyright (c) 2012 Jeff Mitchell <mitchell@kde.org>
 
@@ -54,6 +54,7 @@ Public License can be found in `/usr/share/common-licenses/LGPL-2.1'.
 The Debian packaging is:
 
     Copyright (C) 2009 Thibaut Gridel <tgridel@free.fr>
+    Copyright (C) 2012-2013 Pino Toscano <pino@debian.org>
 
 and is licensed under the GPL version 3, 
 see `/usr/share/common-licenses/GPL-3'.
