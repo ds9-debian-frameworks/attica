@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 0.4.0 amd64
+# SymbolsHelper-Confirmed: 0.4.2 amd64
 libattica.so.0.4 libattica0.4 #MINVER#
 * Build-Depends-Package: libattica-dev
  (optional=templinst)_ZN6Attica10ItemPutJobINS_11AchievementEE5parseERK7QString@Base 0.4.0
@@ -502,6 +502,7 @@ libattica.so.0.4 libattica0.4 #MINVER#
  _ZN6Attica7BaseJob11qt_metacastEPKc@Base 0.4.0
  _ZN6Attica7BaseJob12dataFinishedEv@Base 0.4.0
  _ZN6Attica7BaseJob16staticMetaObjectE@Base 0.4.0
+ _ZN6Attica7BaseJob22authenticationRequiredEP13QNetworkReplyP14QAuthenticator@Base 0.4.2
  _ZN6Attica7BaseJob5abortEv@Base 0.4.0
  _ZN6Attica7BaseJob5startEv@Base 0.4.0
  _ZN6Attica7BaseJob6doWorkEv@Base 0.4.0
@@ -999,9 +1000,11 @@ libattica.so.0.4 libattica0.4 #MINVER#
  _ZN6Attica8Provider9createUrlERK7QString@Base 0.4.0
  _ZN6Attica8Provider9postTopicERK7QStringS3_S3_@Base 0.4.0
  _ZN6Attica8ProviderC1EPNS_17PlatformDependentERK4QUrlRK7QStringS5_S8_S8_S8_S8_S8_S8_S8_S8_S8_S8_S8_@Base 0.4.0
+ _ZN6Attica8ProviderC1EPNS_17PlatformDependentERK4QUrlRK7QStringS5_S8_S8_S8_S8_S8_S8_S8_S8_S8_S8_S8_S8_@Base 0.4.2
  _ZN6Attica8ProviderC1ERKS0_@Base 0.4.0
  _ZN6Attica8ProviderC1Ev@Base 0.4.0
  _ZN6Attica8ProviderC2EPNS_17PlatformDependentERK4QUrlRK7QStringS5_S8_S8_S8_S8_S8_S8_S8_S8_S8_S8_S8_@Base 0.4.0
+ _ZN6Attica8ProviderC2EPNS_17PlatformDependentERK4QUrlRK7QStringS5_S8_S8_S8_S8_S8_S8_S8_S8_S8_S8_S8_S8_@Base 0.4.2
  _ZN6Attica8ProviderC2ERKS0_@Base 0.4.0
  _ZN6Attica8ProviderC2Ev@Base 0.4.0
  _ZN6Attica8ProviderD1Ev@Base 0.4.0
@@ -1326,6 +1329,7 @@ libattica.so.0.4 libattica0.4 #MINVER#
  _ZNK6Attica8Provider20personServiceVersionEv@Base 0.4.0
  _ZNK6Attica8Provider21commentServiceVersionEv@Base 0.4.0
  _ZNK6Attica8Provider21contentServiceVersionEv@Base 0.4.0
+ _ZNK6Attica8Provider21getRegisterAccountUrlEv@Base 0.4.2
  _ZNK6Attica8Provider21hasAchievementServiceEv@Base 0.4.0
  _ZNK6Attica8Provider21messageServiceVersionEv@Base 0.4.0
  _ZNK6Attica8Provider22activityServiceVersionEv@Base 0.4.0
