@@ -1,16 +1,17 @@
 Description: set LIB_DESTINATION to multiarch library path
 Author: Daniel Schaal <farbing@web.de>
-Last-Update: 2012-07-02
+Author: Pino Toscano <pino@debian.org>
+Last-Update: 2013-06-24
 Forwarded: no
 
---- a/lib/CMakeLists.txt
-+++ b/lib/CMakeLists.txt
-@@ -2,7 +2,7 @@
- set(CMAKE_INCLUDE_CURRENT_DIR ON)
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -16,7 +16,7 @@ else()
+   set(QT_MIN_VERSION "4.7.0")
+   find_package(Qt4 REQUIRED)
+   set(LIB_SUFFIX "" CACHE STRING "Define suffix of directory name (32/64)" )
+-  set(LIB_DESTINATION "${CMAKE_INSTALL_PREFIX}/lib${LIB_SUFFIX}" CACHE STRING "Library directory name" FORCE)
++  set(LIB_DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/${CMAKE_LIBRARY_ARCHITECTURE}" CACHE STRING "Library directory name" FORCE)
+ endif()
  
- set(LIB_SUFFIX "" CACHE STRING "Define suffix of directory name (32/64)" )
--set(LIB_DESTINATION "${CMAKE_INSTALL_PREFIX}/lib${LIB_SUFFIX}" CACHE STRING "Library directory name" FORCE)
-+set(LIB_DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/${CMAKE_LIBRARY_ARCHITECTURE}" CACHE STRING "Library directory name" FORCE)
- 
- set(CMAKE_INSTALL_RPATH_USE_LINK_PATH  TRUE)
- 
+ if (Qt5Core_FOUND)
