@@ -1,6 +1,5 @@
-attica (0.4.2-0r1) UNRELEASED; urgency=low
+attica (0.4.2-1) unstable; urgency=low
 
-  [ Pino Toscano ]
   * New upstream release.
   * Update patch switch-to-multiarch.patch to the new attica version.
   * Update copyright.
@@ -8,7 +7,7 @@ attica (0.4.2-0r1) UNRELEASED; urgency=low
   * Update symbols file.
   * Mark libattica-dbg as Multi-Arch: same.
 
- -- Debian Krap Maintainers <debian-qt-kde@lists.debian.org>  Mon, 24 Jun 2013 01:24:28 +0200
+ -- Pino Toscano <pino@debian.org>  Mon, 24 Jun 2013 22:28:34 +0200
 
 attica (0.4.1-2) unstable; urgency=low
 
