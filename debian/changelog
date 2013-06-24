@@ -6,6 +6,7 @@ attica (0.4.2-0r1) UNRELEASED; urgency=low
   * Update copyright.
   * Update Homepage.
   * Update symbols file.
+  * Mark libattica-dbg as Multi-Arch: same.
 
  -- Debian Krap Maintainers <debian-qt-kde@lists.debian.org>  Mon, 24 Jun 2013 01:24:28 +0200
 
