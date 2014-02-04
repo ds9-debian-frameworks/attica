@@ -1,0 +1,98 @@
+Index: attica-kf5-4.95.0/CMakeLists.txt
+===================================================================
+--- attica-kf5-4.95.0.orig/CMakeLists.txt	2014-01-23 16:55:40.000000000 -0800
++++ attica-kf5-4.95.0/CMakeLists.txt	2014-01-23 19:04:17.701827375 -0800
+@@ -71,7 +71,7 @@
+                                 )
+ 
+ # Create the CMake Config files
+-configure_package_config_file(LibAtticaConfig.cmake.in
++configure_package_config_file(KF5AtticaConfig.cmake.in
+                               ${attica_BINARY_DIR}/${ATTICA_LIB_SONAME_CAMEL}Config.cmake
+                               INSTALL_DESTINATION ${LIB_DESTINATION}/cmake/${ATTICA_LIB_SONAME_CAMEL}
+                               PATH_VARS LIB_DESTINATION INCLUDE_DESTINATION
+@@ -82,6 +82,6 @@
+         DESTINATION ${LIB_DESTINATION}/cmake/${ATTICA_LIB_SONAME_CAMEL}
+        )
+ 
+-install(EXPORT LibAtticaExport FILE LibAtticaTargets.cmake
++install(EXPORT LibAtticaExport FILE ${ATTICA_LIB_SONAME_CAMEL}Targets.cmake
+         DESTINATION ${LIB_DESTINATION}/cmake/${ATTICA_LIB_SONAME_CAMEL}
+-        NAMESPACE LibAttica::)
++        NAMESPACE ${ATTICA_LIB_NAMESPACE}::)
+Index: attica-kf5-4.95.0/KF5AtticaConfig.cmake.in
+===================================================================
+--- /dev/null	1970-01-01 00:00:00.000000000 +0000
++++ attica-kf5-4.95.0/KF5AtticaConfig.cmake.in	2014-01-23 19:01:59.633830393 -0800
+@@ -0,0 +1,33 @@
++@PACKAGE_INIT@
++
++# Config file for LibAttica
++# The following variables are defined:
++# LibAttica_FOUND        - True if LibAttica has been found.
++# LibAttica_INCLUDE_DIRS - The include directory.
++# LibAttica_LIBRARY_DIRS - The libraries directory.
++# LibAttica_LIBRARIES    - Libraries needed to use Attica.
++
++########## The LibAttica version ##########
++set(LibAttica_VERSION_MAJOR @CMAKE_LIBATTICA_VERSION_MAJOR@)
++set(LibAttica_VERSION_MINOR @CMAKE_LIBATTICA_VERSION_MINOR@)
++set(LibAttica_VERSION_PATCH @CMAKE_LIBATTICA_VERSION_PATCH@)
++set(LibAttica_VERSION       @CMAKE_LIBATTICA_VERSION_STRING@)
++#########################################
++
++########## Install dirs ##########
++set_and_check(LibAttica_INCLUDE_DIRS "@PACKAGE_INCLUDE_DESTINATION@")
++set_and_check(LibAttica_LIBRARY_DIRS "@PACKAGE_LIB_DESTINATION@")
++##################################
++
++########## The LibAttica libraries ##########
++# Load the exported targets.
++include("${CMAKE_CURRENT_LIST_DIR}/@ATTICA_LIB_SONAME_CAMEL@Targets.cmake")
++set(LibAttica_LIBRARIES        @ATTICA_LIB_NAMESPACE@::@ATTICA_LIB_SONAME@)
++###########################################
++
++# The following variables are kept for compatibility purpose
++set(LIBATTICA_INCLUDE_DIR ${LibAttica_INCLUDE_DIRS})
++set(LIBATTICA_LIBRARY_DIRS ${LibAttica_LIBRARY_DIRS})
++set(LIBATTICA_FOUND ${LibAttica_FOUND})
++set(LIBATTICA_LIBRARIES ${LibAttica_LIBRARIES})
++
+Index: attica-kf5-4.95.0/LibAtticaConfig.cmake.in
+===================================================================
+--- attica-kf5-4.95.0.orig/LibAtticaConfig.cmake.in	2014-01-23 16:55:40.000000000 -0800
++++ /dev/null	1970-01-01 00:00:00.000000000 +0000
+@@ -1,33 +0,0 @@
+-@PACKAGE_INIT@
+-
+-# Config file for LibAttica
+-# The following variables are defined:
+-# LibAttica_FOUND        - True if LibAttica has been found.
+-# LibAttica_INCLUDE_DIRS - The include directory.
+-# LibAttica_LIBRARY_DIRS - The libraries directory.
+-# LibAttica_LIBRARIES    - Libraries needed to use Attica.
+-
+-########## The LibAttica version ##########
+-set(LibAttica_VERSION_MAJOR @CMAKE_LIBATTICA_VERSION_MAJOR@)
+-set(LibAttica_VERSION_MINOR @CMAKE_LIBATTICA_VERSION_MINOR@)
+-set(LibAttica_VERSION_PATCH @CMAKE_LIBATTICA_VERSION_PATCH@)
+-set(LibAttica_VERSION       @CMAKE_LIBATTICA_VERSION_STRING@)
+-#########################################
+-
+-########## Install dirs ##########
+-set_and_check(LibAttica_INCLUDE_DIRS "@PACKAGE_INCLUDE_DESTINATION@")
+-set_and_check(LibAttica_LIBRARY_DIRS "@PACKAGE_LIB_DESTINATION@")
+-##################################
+-
+-########## The LibAttica libraries ##########
+-# Load the exported targets.
+-include("${CMAKE_CURRENT_LIST_DIR}/LibAtticaTargets.cmake")
+-set(LibAttica_LIBRARIES        @ATTICA_LIB_NAMESPACE@::@ATTICA_LIB_SONAME@)
+-###########################################
+-
+-# The following variables are kept for compatibility purpose
+-set(LIBATTICA_INCLUDE_DIR ${LibAttica_INCLUDE_DIRS})
+-set(LIBATTICA_LIBRARY_DIRS ${LibAttica_LIBRARY_DIRS})
+-set(LIBATTICA_FOUND ${LibAttica_FOUND})
+-set(LIBATTICA_LIBRARIES ${LibAttica_LIBRARIES})
+-
