@@ -3,15 +3,16 @@ Section: libs
 Priority: optional
 Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
 XSBC-Original-Maintainer: Jonathan Riddell <jriddell@ubuntu.com>
-Build-Depends: debhelper (>= 9.0.0), cmake, qtbase5-dev, pkg-kde-tools
+Build-Depends: debhelper (>= 9.0.0), cmake, qtbase5-dev, pkg-kde-tools,
+ extra-cmake-modules (>= 0.0.10)
 Standards-Version: 3.9.5
 Homepage: https://projects.kde.org/projects/kdesupport/attica
 
 Package: libkf5attica-dev
 Section: libdevel
 Architecture: any
-Depends: libkf5attica1.0 (= ${binary:Version}), ${misc:Depends}, qtbase5-dev
-Description: development files for libkf5attica1.0
+Depends: libkf5attica4 (= ${binary:Version}), ${misc:Depends}, qtbase5-dev
+Description: development files for libkf5attica4
  Attica is a Qt library that implements the Open Collaboration Services
  API version 1.6.
  .
@@ -22,7 +23,7 @@ Description: development files for libkf5attica1.0
  .
  This package contains the development header files. 
 
-Package: libkf5attica1.0
+Package: libkf5attica4
 Architecture: any
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
@@ -36,13 +37,13 @@ Description: Qt library that implements the Open Collaboration Services API
  .
  This package is part of KDE Frameworks 5.
 
-Package: libkf5attica1.0-dbg
+Package: libkf5attica4-dbg
 Priority: extra
 Section: debug
 Architecture: any
 Multi-Arch: same
-Depends: libkf5attica1.0 (= ${binary:Version}), ${misc:Depends}
-Description: debug symbols for libattica1.0
+Depends: libkf5attica4 (= ${binary:Version}), ${misc:Depends}
+Description: debug symbols for libattica4
  Attica is a Qt library that implements the Open Collaboration Services
  API version 1.6.
  .

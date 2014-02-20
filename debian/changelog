@@ -1,3 +1,9 @@
+attica-kf5 (4.96.0-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream alpha release 
+
+ -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Thu, 20 Feb 2014 07:55:10 -0800
+
 attica-kf5 (4.95.0-0ubuntu1) trusty; urgency=low
 
   * Initial tech preview release
