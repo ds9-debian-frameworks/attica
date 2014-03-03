@@ -1,5 +1,5 @@
 # SymbolsHelper-Confirmed: 4.96.0 amd64
-libKF5Attica.so.4 libkf5attica4 #MINVER#
+libKF5Attica.so.5 libkf5attica5 #MINVER#
  (optional=templinst)_ZN6Attica10ItemPutJobINS_11AchievementEE5parseERK7QString@Base 4.96.0
  (optional=templinst)_ZN6Attica10ItemPutJobINS_11AchievementEEC1EPNS_17PlatformDependentERK15QNetworkRequestP9QIODevice@Base 4.96.0
  (optional=templinst)_ZN6Attica10ItemPutJobINS_11AchievementEEC1EPNS_17PlatformDependentERK15QNetworkRequestRK4QMapI7QStringS9_E@Base 4.96.0
@@ -1356,7 +1356,7 @@ libKF5Attica.so.4 libkf5attica4 #MINVER#
  _ZNK6Attica6Person17extendedAttributeERK7QString@Base 4.96.0
  _ZNK6Attica6Person18extendedAttributesEv@Base 4.96.0
  _ZNK6Attica6Person2idEv@Base 4.96.0
- _ZNK6Attica6Person4cityEv@Base 4.96.0
+ _ZNK6Attica6Perso.5cityEv@Base 4.96.0
  _ZNK6Attica6Person6Parser10xmlElementEv@Base 4.96.0
  _ZNK6Attica6Person7countryEv@Base 4.96.0
  _ZNK6Attica6Person7isValidEv@Base 4.96.0
