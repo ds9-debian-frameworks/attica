@@ -1,3 +1,9 @@
+attica-kf5 (4.99.0-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream beta release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 05 May 2014 15:39:43 +0100
+
 attica-kf5 (4.98.0-0ubuntu1) trusty; urgency=medium
 
   * New upstream alpha release
