@@ -29,7 +29,6 @@ Description: development files for libkf5attica5
 Package: libkf5attica5
 Architecture: any
 Multi-Arch: same
-Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Qt library that implements the Open Collaboration Services API
  Attica is a Qt library that implements the Open Collaboration Services
