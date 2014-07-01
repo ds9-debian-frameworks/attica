@@ -1,3 +1,9 @@
+attica-kf5 (5.0.0-0ubuntu1) UNRELEASED; urgency=medium
+
+  * Initial stable upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 01 Jul 2014 23:57:40 +0200
+
 attica-kf5 (4.100.0-0ubuntu1) utopic; urgency=medium
 
   [ Jonathan Riddell ]
