@@ -1,6 +1,10 @@
 attica-kf5 (5.0.0-0ubuntu1) UNRELEASED; urgency=medium
 
+  [ Jonathan Riddell ]
   * Initial stable upstream release
+
+  [ Scarlett Clark ]
+  * Fix install file 
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 01 Jul 2014 23:57:40 +0200
 
