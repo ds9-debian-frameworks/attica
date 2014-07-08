@@ -5,6 +5,7 @@ attica-kf5 (5.0.0-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Scarlett Clark ]
   * Fix install file 
+  * Update watch file to stable
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 01 Jul 2014 23:57:40 +0200
 

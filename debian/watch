@@ -1,2 +1,4 @@
 version=3
+http://download.kde.org/unstable/frameworks/([\d\.]*)/attica-(.*)\.tar\.xz
+
 http://download.kde.org/stable/frameworks/([\d\.]*)/attica-(.*)\.tar\.xz
