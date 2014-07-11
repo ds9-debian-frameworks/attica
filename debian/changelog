@@ -1,4 +1,4 @@
-attica-kf5 (5.0.0-0ubuntu1) UNRELEASED; urgency=medium
+attica-kf5 (5.0.0-1~) UNRELEASED; urgency=medium
 
   [ Jonathan Riddell ]
   * Initial stable upstream release
@@ -7,7 +7,7 @@ attica-kf5 (5.0.0-0ubuntu1) UNRELEASED; urgency=medium
   * Fix install file
   * Update watch file to stable
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 01 Jul 2014 23:57:40 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 11 Jul 2014 11:54:08 +0200
 
 attica-kf5 (4.100.0-0ubuntu1) utopic; urgency=medium
 
