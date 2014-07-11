@@ -1,8 +1,9 @@
 Source: attica-kf5
 Section: libs
 Priority: optional
-Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
-XSBC-Original-Maintainer: Jonathan Riddell <jriddell@ubuntu.com>
+Maintainer: Debian/Ubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Jonathan Riddell <jriddell@ubuntu.com>,
+           Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake,
                debhelper (>= 9),
                extra-cmake-modules (>= 0.0.14),
@@ -10,8 +11,8 @@ Build-Depends: cmake,
                qtbase5-dev
 Standards-Version: 3.9.5
 Homepage: https://projects.kde.org/projects/kdesupport/attica
-Vcs-Browser: http://bazaar.launchpad.net/~kubuntu-packagers/kubuntu-packaging-next/attica
-Vcs-Bzr: https://code.launchpad.net/~kubuntu-packagers/kubuntu-packaging-next/attica
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/frameworks/attica.git
+Vcs-Git: git://anonscm.debian.org/pkg-kde/frameworks/attica.git
 
 Package: libkf5attica-dev
 Section: libdevel
