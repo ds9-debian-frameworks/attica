@@ -3,6 +3,7 @@ Upstream-Name: attica
 Source: git://anongit.kde.org/attica
 
 Files: *
+       debian/*
 Copyright: 2000, Charles Samuels <charles@kde.org>
            2008, Cornelius Schumacher <schumacher@kde.org>
            2010-2011, Dan Leinir Turthra Jensen <admin@leinir.dk>
@@ -10,11 +11,13 @@ Copyright: 2000, Charles Samuels <charles@kde.org>
            2009-2010, Frederik Gladhorn <gladhorn@kde.org>
            2010, Intel Corporation
            2012, Jeff Mitchell <mitchell@kde.org>
+           2014, Jonathan Riddell <jriddell@ubuntu.com>
            2005, Joseph Wenninger <kde@jowenn.at>
            2011-2012, Laszlo Papp <lpapp@kde.org>
            2009, Marco Martin <notmart@gmail.com>
            2010, Martin Sandsmark <martin.sandsmark@kde.org>
            1999, Matthias Kalle Dalheimer <kalle@kde.org>
+           2014, Scarlett Clark <scarlett@scarlettgatelyclark.com>
            2010, Sebastian Kügler <sebas@kde.org>
 LLicense: LGPL-2.1 or LGPL-3 or later approved by KDE e.v.
  This library is free software; you can redistribute it and/or
@@ -33,24 +36,5 @@ LLicense: LGPL-2.1 or LGPL-3 or later approved by KDE e.v.
  You should have received a copy of the GNU Lesser General Public
  License along with this library.  If not, see <http://www.gnu.org/licenses/>.
  .
- On Debian systems, the complete text of the GNU Lesser General
- Public License version 2.1 can be found in "/usr/share/common-licenses/LGPL-2.1".
-
-Files: debian/*
-Copyright: 2014 Jonathan Riddell <jriddell@ubuntu.com>
-License: GPL-2+
- This package is free software; you can redistribute it and/or modify
- it under the terms of the GNU General Public License as published by
- the Free Software Foundation; either version 2 of the License, or
- (at your option) any later version.
- .
- This package is distributed in the hope that it will be useful,
- but WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- GNU General Public License for more details.
- .
- You should have received a copy of the GNU General Public License
- along with this program. If not, see <http://www.gnu.org/licenses/>
- .
- On Debian systems, the complete text of the GNU General
- Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
+ On Debian systems, the complete text of the GNU Lesser General Public License
+ version 2.1 can be found in "/usr/share/common-licenses/LGPL-2.1".

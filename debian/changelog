@@ -6,6 +6,7 @@ attica-kf5 (5.0.0-1~) UNRELEASED; urgency=medium
   [ Scarlett Clark ]
   * Fix install file
   * Update watch file to stable
+  * Update copyright to match upstream 
 
  -- Maximiliano Curia <maxy@debian.org>  Fri, 11 Jul 2014 11:54:08 +0200
 
