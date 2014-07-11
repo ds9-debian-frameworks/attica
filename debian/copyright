@@ -1,6 +1,6 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: attica
-Source: https://projects.kde.org/projects/kdesupport/attica
+Source: git://anongit.kde.org/attica
 
 Files: *
 Copyright: 2009 Frederik Gladhorn <gladhorn@kde.org>,
