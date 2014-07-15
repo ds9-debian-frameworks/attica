@@ -8,6 +8,15 @@ attica-kf5 (5.0.0-1~) UNRELEASED; urgency=medium
   * Update watch file to stable
   * Update copyright to match upstream 
 
+  [ Maximiliano Curia ]
+  * Update debhelper versioning in build-dependencies
+  * Point the source url to the upstream git repositories
+  * Update watch file
+  * Update Maintainers and vcs fields.
+  * Update the -dbg package description.
+  * Update copyright information
+  * Update symbols file.
+
  -- Maximiliano Curia <maxy@debian.org>  Fri, 11 Jul 2014 11:54:08 +0200
 
 attica-kf5 (4.100.0-0ubuntu1) utopic; urgency=medium
