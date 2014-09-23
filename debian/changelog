@@ -1,4 +1,10 @@
-attica-kf5 (5.0.0-1) unstable; urgency=medium
+attica-kf5 (5.2.0-0ubuntu1) utopic; urgency=medium
+
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 22 Sep 2014 19:51:25 +0200
+
+attica-kf5 (5.1.0-0ubuntu1) utopic; urgency=medium
 
   [ Jonathan Riddell ]
   * Initial stable upstream release
@@ -6,7 +12,20 @@ attica-kf5 (5.0.0-1) unstable; urgency=medium
   [ Scarlett Clark ]
   * Fix install file
   * Update watch file to stable
-  * Update copyright to match upstream 
+  * Update copyright to match upstream
+  * Update extra-cmake-modules depend version
+
+  [ José Manuel Santamaría Lema ]
+  * Update libraries *.install paths so a soname bump doesn't go
+    unnoticed.
+
+  [ Scarlett Clark ]
+  * New upstream release
+  * Patch symbols with batchpatch.
+
+ -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Tue, 05 Aug 2014 17:26:40 +0200
+
+attica-kf5 (5.0.0-1) unstable; urgency=medium
 
   [ Maximiliano Curia ]
   * Update debhelper versioning in build-dependencies
@@ -25,7 +44,6 @@ attica-kf5 (4.100.0-0ubuntu1) utopic; urgency=medium
   * New upstream beta release
 
   [ Scarlett Clark ]
-  * Bump depends versions
   * Bump depends versions
 
   [ Harald Sitter ]

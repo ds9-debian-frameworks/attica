@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.0.0 amd64
+# SymbolsHelper-Confirmed: 5.1.0 amd64
 libKF5Attica.so.5 libkf5attica5 #MINVER#
  (optional=templinst)_ZN6Attica10ItemPutJobINS_11AchievementEE5parseERK7QString@Base 4.96.0
  (optional=templinst)_ZN6Attica10ItemPutJobINS_11AchievementEEC1EPNS_17PlatformDependentERK15QNetworkRequestP9QIODevice@Base 4.96.0
@@ -456,9 +456,6 @@ libKF5Attica.so.5 libkf5attica5 #MINVER#
  _ZN6Attica6GetJob16staticMetaObjectE@Base 4.96.0
  _ZN6Attica6GetJobC1EPNS_17PlatformDependentERK15QNetworkRequest@Base 4.96.0
  _ZN6Attica6GetJobC2EPNS_17PlatformDependentERK15QNetworkRequest@Base 4.96.0
- (optional=gccinternal)_ZN6Attica6GetJobD0Ev@Base 4.96.0
- (optional=gccinternal)_ZN6Attica6GetJobD1Ev@Base 4.96.0
- (optional=gccinternal)_ZN6Attica6GetJobD2Ev@Base 4.96.0
  (optional=templinst)_ZN6Attica6ParserINS_11AchievementEE16parseMetadataXmlER16QXmlStreamReader@Base 4.96.0
  (optional=templinst)_ZN6Attica6ParserINS_11AchievementEE5parseERK7QString@Base 4.96.0
  (optional=templinst)_ZN6Attica6ParserINS_11AchievementEE9parseListERK7QString@Base 4.96.0
@@ -1163,9 +1160,6 @@ libKF5Attica.so.5 libkf5attica5 #MINVER#
  _ZN6Attica9DeleteJob16staticMetaObjectE@Base 4.96.0
  _ZN6Attica9DeleteJobC1EPNS_17PlatformDependentERK15QNetworkRequest@Base 4.96.0
  _ZN6Attica9DeleteJobC2EPNS_17PlatformDependentERK15QNetworkRequest@Base 4.96.0
- (optional=gccinternal)_ZN6Attica9DeleteJobD0Ev@Base 4.96.0
- (optional=gccinternal)_ZN6Attica9DeleteJobD1Ev@Base 4.96.0
- (optional=gccinternal)_ZN6Attica9DeleteJobD2Ev@Base 4.96.0
  _ZN6Attica9Publisher5setIdERK7QString@Base 4.96.0
  _ZN6Attica9Publisher6Parser8parseXmlER16QXmlStreamReader@Base 4.96.0
  _ZN6Attica9Publisher6ParserD0Ev@Base 4.96.0
