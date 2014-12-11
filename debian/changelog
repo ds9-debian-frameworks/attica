@@ -1,3 +1,9 @@
+attica-kf5 (5.5.0-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream release
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Thu, 11 Dec 2014 13:35:39 -0800
+
 attica-kf5 (5.4.0-0ubuntu1) vivid; urgency=medium
 
   [ Harald Sitter ]
