@@ -1,6 +1,7 @@
 attica-kf5 (5.6.0-1~) UNRELEASED; urgency=medium
 
   * New upstream release (5.6.0).
+  * Bump Standards-Version to 3.9.6, no changes needed
 
  -- Maximiliano Curia <maxy@debian.org>  Tue, 20 Jan 2015 15:29:08 +0100
 
