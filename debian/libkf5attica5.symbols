@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.1.0 amd64
+# SymbolsHelper-Confirmed: 5.3.0+git20141010 i386
 libKF5Attica.so.5 libkf5attica5 #MINVER#
  (optional=templinst)_ZN6Attica10ItemPutJobINS_11AchievementEE5parseERK7QString@Base 4.96.0
  (optional=templinst)_ZN6Attica10ItemPutJobINS_11AchievementEEC1EPNS_17PlatformDependentERK15QNetworkRequestP9QIODevice@Base 4.96.0
@@ -1275,6 +1275,20 @@ libKF5Attica.so.5 libkf5attica5 #MINVER#
  _ZNK6Attica18KnowledgeBaseEntry7isValidEv@Base 4.96.0
  _ZNK6Attica18KnowledgeBaseEntry8commentsEv@Base 4.96.0
  _ZNK6Attica18KnowledgeBaseEntry9contentIdEv@Base 4.96.0
+ _ZNK6Attica19DownloadDescription10repositoryEv@Base 5.3.0+git20141010
+ _ZNK6Attica19DownloadDescription11packageNameEv@Base 5.3.0+git20141010
+ _ZNK6Attica19DownloadDescription11priceAmountEv@Base 5.3.0+git20141010
+ _ZNK6Attica19DownloadDescription11priceReasonEv@Base 5.3.0+git20141010
+ _ZNK6Attica19DownloadDescription12gpgSignatureEv@Base 5.3.0+git20141010
+ _ZNK6Attica19DownloadDescription14gpgFingerprintEv@Base 5.3.0+git20141010
+ _ZNK6Attica19DownloadDescription16distributionTypeEv@Base 5.3.0+git20141010
+ _ZNK6Attica19DownloadDescription2idEv@Base 5.3.0+git20141010
+ _ZNK6Attica19DownloadDescription4linkEv@Base 5.3.0+git20141010
+ _ZNK6Attica19DownloadDescription4nameEv@Base 5.3.0+git20141010
+ _ZNK6Attica19DownloadDescription4sizeEv@Base 5.3.0+git20141010
+ _ZNK6Attica19DownloadDescription4typeEv@Base 5.3.0+git20141010
+ _ZNK6Attica19DownloadDescription8categoryEv@Base 5.3.0+git20141010
+ _ZNK6Attica19DownloadDescription8hasPriceEv@Base 5.3.0+git20141010
  _ZNK6Attica21BuildServiceJobOutput6Parser10xmlElementEv@Base 4.96.0
  _ZNK6Attica21BuildServiceJobOutput6outputEv@Base 4.96.0
  _ZNK6Attica21BuildServiceJobOutput7isValidEv@Base 4.96.0

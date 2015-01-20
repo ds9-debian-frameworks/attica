@@ -5,7 +5,7 @@ Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake,
                debhelper (>= 9.0.0),
-               extra-cmake-modules (>= 1.2.0),
+               extra-cmake-modules (>= 1.6.0),
                pkg-kde-tools (>= 0.15.15ubuntu1~),
                qtbase5-dev
 Standards-Version: 3.9.5
@@ -48,9 +48,9 @@ Architecture: any
 Multi-Arch: same
 Depends: libkf5attica5 (= ${binary:Version}), ${misc:Depends}
 Description: debug symbols for libattica5
- Attica is a Qt library that implements the Open Collaboration Services
- API version 1.6. It grants easy access to the services such as querying information about
- persons and contents.
+ Attica is a Qt library that implements the Open Collaboration
+ Services API version 1.6. It grants easy access to the services such
+ as querying information about persons and contents.
  .
  This package contains the debug symbols.
  .

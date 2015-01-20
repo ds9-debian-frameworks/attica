@@ -4,6 +4,34 @@ attica-kf5 (5.6.0-1~) UNRELEASED; urgency=medium
 
  -- Maximiliano Curia <maxy@debian.org>  Tue, 20 Jan 2015 15:29:08 +0100
 
+attica-kf5 (5.6.0-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 06 Jan 2015 20:07:55 +0100
+
+attica-kf5 (5.5.0-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 15 Dec 2014 11:07:49 +0100
+
+attica-kf5 (5.4.0-0ubuntu1) vivid; urgency=medium
+
+  [ Harald Sitter ]
+  * Add lintian override for License file in deb which really is a header
+
+  [ Jonathan Riddell ]
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 07 Nov 2014 15:22:25 +0100
+
+attica-kf5 (5.3.0-0ubuntu1) utopic; urgency=medium
+
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 07 Oct 2014 11:29:03 +0100
+
 attica-kf5 (5.2.0-0ubuntu1) utopic; urgency=medium
 
   * New upstream release
