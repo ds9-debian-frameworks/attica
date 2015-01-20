@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<descriptor>
+
+<version>
+    5.0.0
+</version>
+
+<headers>
+    /usr/include/KF5/Attica/
+</headers>
+
+<libs>
+    /usr/lib/@@DEB_HOST_MULTIARCH@@/libKF5Attica.so
+</libs>
+
+</descriptor>
