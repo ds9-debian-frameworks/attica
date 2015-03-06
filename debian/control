@@ -17,7 +17,9 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/frameworks/attica.git
 Package: libkf5attica-dev
 Section: libdevel
 Architecture: any
-Depends: libkf5attica5 (= ${binary:Version}), qtbase5-dev, ${misc:Depends}
+Depends: libkf5attica5 (= ${binary:Version}),
+         qtbase5-dev (>= 5.2.0),
+         ${misc:Depends}
 Description: development files for libkf5attica5
  Attica is a Qt library that implements the Open Collaboration Services
  API version 1.6.
