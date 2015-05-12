@@ -7,7 +7,7 @@ Build-Depends: cmake (>= 2.8.12),
                debhelper (>= 9),
                extra-cmake-modules (>= 5.10.0~),
                pkg-kde-tools (>= 0.15.15ubuntu1~),
-               qtbase5-dev (>= 5.2.0)
+               qtbase5-dev (>= 5.4)
 Standards-Version: 3.9.6
 XS-Testsuite: autopkgtest
 Homepage: https://projects.kde.org/projects/kdesupport/attica
@@ -18,7 +18,7 @@ Package: libkf5attica-dev
 Section: libdevel
 Architecture: any
 Depends: libkf5attica5 (= ${binary:Version}),
-         qtbase5-dev (>= 5.2.0),
+         qtbase5-dev (>= 5.4),
          ${misc:Depends}
 Description: development files for libkf5attica5
  Attica is a Qt library that implements the Open Collaboration Services
