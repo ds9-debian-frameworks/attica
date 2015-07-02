@@ -1,3 +1,10 @@
+attica-kf5 (5.11.0-1) unstable; urgency=medium
+
+  * New upstream release (5.10.0).
+  * New upstream release (5.11.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 25 Jun 2015 16:48:15 +0200
+
 attica-kf5 (5.10.0-0ubuntu1) wily; urgency=medium
 
   [ Maximiliano Curia ]
