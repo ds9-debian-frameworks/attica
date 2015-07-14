@@ -1,8 +1,12 @@
 attica-kf5 (5.12.0-0ubuntu1) UNRELEASED; urgency=medium
 
+  [ Scarlett Clark ]
   * New upstream release
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 10 Jul 2015 07:53:17 -0700
+  [ Jonathan Riddell ]
+  * new upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 14 Jul 2015 22:52:56 +0200
 
 attica-kf5 (5.11.0-0ubuntu1) UNRELEASED; urgency=medium
 
