@@ -1,9 +1,9 @@
-attica (0.4.2-2~) UNRELEASED; urgency=medium
+attica (0.4.2-2) unstable; urgency=medium
 
   * Team upload.
   * Update symbols file. (Closes: #777785)
 
- -- Maximiliano Curia <maxy@debian.org>  Thu, 06 Aug 2015 15:55:26 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 06 Aug 2015 16:26:04 +0200
 
 attica (0.4.2-1) unstable; urgency=low
 
