@@ -1,5 +1,12 @@
 attica-kf5 (5.13.0-0ubuntu1) UNRELEASED; urgency=medium
 
+  [ José Manuel Santamaría Lema ]
+  * Update symbols file:
+    - Mark as optional the previously non-optional symbols gone after building
+      with gcc 5
+    - Keep the optional symbols gone after building with gcc 5
+
+  [ Jonathan Riddell ]
   * new upstream release
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 07 Aug 2015 15:14:32 +0200
