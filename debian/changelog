@@ -1,8 +1,8 @@
-attica-kf5 (5.12.0-2~) UNRELEASED; urgency=medium
+attica-kf5 (5.12.0-2) unstable; urgency=medium
 
   * Update symbols files. (Closes: #777786)
 
- -- Maximiliano Curia <maxy@debian.org>  Fri, 07 Aug 2015 09:24:47 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 07 Aug 2015 14:37:46 +0200
 
 attica-kf5 (5.12.0-1) unstable; urgency=medium
 
