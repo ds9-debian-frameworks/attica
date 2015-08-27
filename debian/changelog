@@ -1,6 +1,7 @@
 attica-kf5 (5.13.0-1~) UNRELEASED; urgency=medium
 
   * New upstream release (5.13.0).
+  * Update symbols files from buildds logs (5.12.0-2).
 
  -- Maximiliano Curia <maxy@debian.org>  Thu, 27 Aug 2015 15:22:02 +0200
 
