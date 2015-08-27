@@ -1,13 +1,13 @@
-# SymbolsHelper-Confirmed: 5.12.0 amd64 arm64 armel armhf hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc ppc64 ppc64el s390x x32
+# SymbolsHelper-Confirmed: 5.13.0 amd64
 libKF5Attica.so.5 libkf5attica5 #MINVER#
  (optional=templinst)_ZN6Attica10ItemPutJobINS_11AchievementEE5parseERK7QString@Base 4.96.0
  (optional=templinst)_ZN6Attica10ItemPutJobINS_11AchievementEEC1EPNS_17PlatformDependentERK15QNetworkRequestP9QIODevice@Base 4.96.0
  (optional=templinst)_ZN6Attica10ItemPutJobINS_11AchievementEEC1EPNS_17PlatformDependentERK15QNetworkRequestRK4QMapI7QStringS9_E@Base 4.96.0
  (optional=templinst)_ZN6Attica10ItemPutJobINS_11AchievementEEC2EPNS_17PlatformDependentERK15QNetworkRequestP9QIODevice@Base 4.96.0
  (optional=templinst)_ZN6Attica10ItemPutJobINS_11AchievementEEC2EPNS_17PlatformDependentERK15QNetworkRequestRK4QMapI7QStringS9_E@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica10ItemPutJobINS_11AchievementEED0Ev@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica10ItemPutJobINS_11AchievementEED1Ev@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica10ItemPutJobINS_11AchievementEED2Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica10ItemPutJobINS_11AchievementEED0Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica10ItemPutJobINS_11AchievementEED1Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica10ItemPutJobINS_11AchievementEED2Ev@Base 4.96.0
  _ZN6Attica11Achievement10setOptionsERK11QStringList@Base 4.96.0
  _ZN6Attica11Achievement11setProgressERK8QVariant@Base 4.96.0
  _ZN6Attica11Achievement12removeOptionERK7QString@Base 4.96.0
@@ -27,9 +27,9 @@ libKF5Attica.so.5 libkf5attica5 #MINVER#
  _ZN6Attica11Achievement6Parser16parseXmlProgressER16QXmlStreamReader@Base 4.96.0
  _ZN6Attica11Achievement6Parser20parseXmlDependenciesER16QXmlStreamReader@Base 4.96.0
  _ZN6Attica11Achievement6Parser8parseXmlER16QXmlStreamReader@Base 4.96.0
- (optional=gccinternal|arch=amd64)_ZN6Attica11Achievement6ParserD0Ev@Base 4.96.0
- (optional=gccinternal|arch=amd64)_ZN6Attica11Achievement6ParserD1Ev@Base 4.96.0
- (optional=gccinternal|arch=amd64)_ZN6Attica11Achievement6ParserD2Ev@Base 4.96.0
+ (optional=gccinternal|arch=!amd64)_ZN6Attica11Achievement6ParserD0Ev@Base 4.96.0
+ (optional=gccinternal|arch=!amd64)_ZN6Attica11Achievement6ParserD1Ev@Base 4.96.0
+ (optional=gccinternal|arch=!amd64)_ZN6Attica11Achievement6ParserD2Ev@Base 4.96.0
  _ZN6Attica11Achievement7setNameERK7QString@Base 4.96.0
  _ZN6Attica11Achievement7setTypeENS0_4TypeE@Base 4.96.0
  _ZN6Attica11Achievement8setImageERK4QUrl@Base 4.96.0
@@ -48,79 +48,79 @@ libKF5Attica.so.5 libkf5attica5 #MINVER#
  (optional=templinst)_ZN6Attica11ItemPostJobINS_11AchievementEEC1EPNS_17PlatformDependentERK15QNetworkRequestRK4QMapI7QStringS9_E@Base 4.96.0
  (optional=templinst)_ZN6Attica11ItemPostJobINS_11AchievementEEC2EPNS_17PlatformDependentERK15QNetworkRequestP9QIODevice@Base 4.96.0
  (optional=templinst)_ZN6Attica11ItemPostJobINS_11AchievementEEC2EPNS_17PlatformDependentERK15QNetworkRequestRK4QMapI7QStringS9_E@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica11ItemPostJobINS_11AchievementEED0Ev@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica11ItemPostJobINS_11AchievementEED1Ev@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica11ItemPostJobINS_11AchievementEED2Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica11ItemPostJobINS_11AchievementEED0Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica11ItemPostJobINS_11AchievementEED1Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica11ItemPostJobINS_11AchievementEED2Ev@Base 4.96.0
  (optional=templinst)_ZN6Attica11ItemPostJobINS_12BuildServiceEE5parseERK7QString@Base 4.96.0
  (optional=templinst)_ZN6Attica11ItemPostJobINS_12BuildServiceEEC1EPNS_17PlatformDependentERK15QNetworkRequestP9QIODevice@Base 4.96.0
  (optional=templinst)_ZN6Attica11ItemPostJobINS_12BuildServiceEEC1EPNS_17PlatformDependentERK15QNetworkRequestRK4QMapI7QStringS9_E@Base 4.96.0
  (optional=templinst)_ZN6Attica11ItemPostJobINS_12BuildServiceEEC2EPNS_17PlatformDependentERK15QNetworkRequestP9QIODevice@Base 4.96.0
  (optional=templinst)_ZN6Attica11ItemPostJobINS_12BuildServiceEEC2EPNS_17PlatformDependentERK15QNetworkRequestRK4QMapI7QStringS9_E@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica11ItemPostJobINS_12BuildServiceEED0Ev@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica11ItemPostJobINS_12BuildServiceEED1Ev@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica11ItemPostJobINS_12BuildServiceEED2Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica11ItemPostJobINS_12BuildServiceEED0Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica11ItemPostJobINS_12BuildServiceEED1Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica11ItemPostJobINS_12BuildServiceEED2Ev@Base 4.96.0
  (optional=templinst)_ZN6Attica11ItemPostJobINS_13RemoteAccountEE5parseERK7QString@Base 4.96.0
  (optional=templinst)_ZN6Attica11ItemPostJobINS_13RemoteAccountEEC1EPNS_17PlatformDependentERK15QNetworkRequestP9QIODevice@Base 4.96.0
  (optional=templinst)_ZN6Attica11ItemPostJobINS_13RemoteAccountEEC1EPNS_17PlatformDependentERK15QNetworkRequestRK4QMapI7QStringS9_E@Base 4.96.0
  (optional=templinst)_ZN6Attica11ItemPostJobINS_13RemoteAccountEEC2EPNS_17PlatformDependentERK15QNetworkRequestP9QIODevice@Base 4.96.0
  (optional=templinst)_ZN6Attica11ItemPostJobINS_13RemoteAccountEEC2EPNS_17PlatformDependentERK15QNetworkRequestRK4QMapI7QStringS9_E@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica11ItemPostJobINS_13RemoteAccountEED0Ev@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica11ItemPostJobINS_13RemoteAccountEED1Ev@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica11ItemPostJobINS_13RemoteAccountEED2Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica11ItemPostJobINS_13RemoteAccountEED0Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica11ItemPostJobINS_13RemoteAccountEED1Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica11ItemPostJobINS_13RemoteAccountEED2Ev@Base 4.96.0
  (optional=templinst)_ZN6Attica11ItemPostJobINS_15BuildServiceJobEE5parseERK7QString@Base 4.96.0
  (optional=templinst)_ZN6Attica11ItemPostJobINS_15BuildServiceJobEEC1EPNS_17PlatformDependentERK15QNetworkRequestP9QIODevice@Base 4.96.0
  (optional=templinst)_ZN6Attica11ItemPostJobINS_15BuildServiceJobEEC1EPNS_17PlatformDependentERK15QNetworkRequestRK4QMapI7QStringS9_E@Base 4.96.0
  (optional=templinst)_ZN6Attica11ItemPostJobINS_15BuildServiceJobEEC2EPNS_17PlatformDependentERK15QNetworkRequestP9QIODevice@Base 4.96.0
  (optional=templinst)_ZN6Attica11ItemPostJobINS_15BuildServiceJobEEC2EPNS_17PlatformDependentERK15QNetworkRequestRK4QMapI7QStringS9_E@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica11ItemPostJobINS_15BuildServiceJobEED0Ev@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica11ItemPostJobINS_15BuildServiceJobEED1Ev@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica11ItemPostJobINS_15BuildServiceJobEED2Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica11ItemPostJobINS_15BuildServiceJobEED0Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica11ItemPostJobINS_15BuildServiceJobEED1Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica11ItemPostJobINS_15BuildServiceJobEED2Ev@Base 4.96.0
  (optional=templinst)_ZN6Attica11ItemPostJobINS_5ForumEE5parseERK7QString@Base 4.96.0
  (optional=templinst)_ZN6Attica11ItemPostJobINS_5ForumEEC1EPNS_17PlatformDependentERK15QNetworkRequestP9QIODevice@Base 4.96.0
  (optional=templinst)_ZN6Attica11ItemPostJobINS_5ForumEEC1EPNS_17PlatformDependentERK15QNetworkRequestRK4QMapI7QStringS9_E@Base 4.96.0
  (optional=templinst)_ZN6Attica11ItemPostJobINS_5ForumEEC2EPNS_17PlatformDependentERK15QNetworkRequestP9QIODevice@Base 4.96.0
  (optional=templinst)_ZN6Attica11ItemPostJobINS_5ForumEEC2EPNS_17PlatformDependentERK15QNetworkRequestRK4QMapI7QStringS9_E@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica11ItemPostJobINS_5ForumEED0Ev@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica11ItemPostJobINS_5ForumEED1Ev@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica11ItemPostJobINS_5ForumEED2Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica11ItemPostJobINS_5ForumEED0Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica11ItemPostJobINS_5ForumEED1Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica11ItemPostJobINS_5ForumEED2Ev@Base 4.96.0
  (optional=templinst)_ZN6Attica11ItemPostJobINS_7CommentEE5parseERK7QString@Base 4.96.0
  (optional=templinst)_ZN6Attica11ItemPostJobINS_7CommentEEC1EPNS_17PlatformDependentERK15QNetworkRequestP9QIODevice@Base 4.96.0
  (optional=templinst)_ZN6Attica11ItemPostJobINS_7CommentEEC1EPNS_17PlatformDependentERK15QNetworkRequestRK4QMapI7QStringS9_E@Base 4.96.0
  (optional=templinst)_ZN6Attica11ItemPostJobINS_7CommentEEC2EPNS_17PlatformDependentERK15QNetworkRequestP9QIODevice@Base 4.96.0
  (optional=templinst)_ZN6Attica11ItemPostJobINS_7CommentEEC2EPNS_17PlatformDependentERK15QNetworkRequestRK4QMapI7QStringS9_E@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica11ItemPostJobINS_7CommentEED0Ev@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica11ItemPostJobINS_7CommentEED1Ev@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica11ItemPostJobINS_7CommentEED2Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica11ItemPostJobINS_7CommentEED0Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica11ItemPostJobINS_7CommentEED1Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica11ItemPostJobINS_7CommentEED2Ev@Base 4.96.0
  (optional=templinst)_ZN6Attica11ItemPostJobINS_7ContentEE5parseERK7QString@Base 4.96.0
  (optional=templinst)_ZN6Attica11ItemPostJobINS_7ContentEEC1EPNS_17PlatformDependentERK15QNetworkRequestP9QIODevice@Base 4.96.0
  (optional=templinst)_ZN6Attica11ItemPostJobINS_7ContentEEC1EPNS_17PlatformDependentERK15QNetworkRequestRK4QMapI7QStringS9_E@Base 4.96.0
  (optional=templinst)_ZN6Attica11ItemPostJobINS_7ContentEEC2EPNS_17PlatformDependentERK15QNetworkRequestP9QIODevice@Base 4.96.0
  (optional=templinst)_ZN6Attica11ItemPostJobINS_7ContentEEC2EPNS_17PlatformDependentERK15QNetworkRequestRK4QMapI7QStringS9_E@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica11ItemPostJobINS_7ContentEED0Ev@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica11ItemPostJobINS_7ContentEED1Ev@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica11ItemPostJobINS_7ContentEED2Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica11ItemPostJobINS_7ContentEED0Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica11ItemPostJobINS_7ContentEED1Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica11ItemPostJobINS_7ContentEED2Ev@Base 4.96.0
  (optional=templinst)_ZN6Attica11ItemPostJobINS_7ProjectEE5parseERK7QString@Base 4.96.0
  (optional=templinst)_ZN6Attica11ItemPostJobINS_7ProjectEEC1EPNS_17PlatformDependentERK15QNetworkRequestP9QIODevice@Base 4.96.0
  (optional=templinst)_ZN6Attica11ItemPostJobINS_7ProjectEEC1EPNS_17PlatformDependentERK15QNetworkRequestRK4QMapI7QStringS9_E@Base 4.96.0
  (optional=templinst)_ZN6Attica11ItemPostJobINS_7ProjectEEC2EPNS_17PlatformDependentERK15QNetworkRequestP9QIODevice@Base 4.96.0
  (optional=templinst)_ZN6Attica11ItemPostJobINS_7ProjectEEC2EPNS_17PlatformDependentERK15QNetworkRequestRK4QMapI7QStringS9_E@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica11ItemPostJobINS_7ProjectEED0Ev@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica11ItemPostJobINS_7ProjectEED1Ev@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica11ItemPostJobINS_7ProjectEED2Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica11ItemPostJobINS_7ProjectEED0Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica11ItemPostJobINS_7ProjectEED1Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica11ItemPostJobINS_7ProjectEED2Ev@Base 4.96.0
  (optional=templinst)_ZN6Attica11ItemPostJobINS_9PublisherEE5parseERK7QString@Base 4.96.0
  (optional=templinst)_ZN6Attica11ItemPostJobINS_9PublisherEEC1EPNS_17PlatformDependentERK15QNetworkRequestP9QIODevice@Base 4.96.0
  (optional=templinst)_ZN6Attica11ItemPostJobINS_9PublisherEEC1EPNS_17PlatformDependentERK15QNetworkRequestRK4QMapI7QStringS9_E@Base 4.96.0
  (optional=templinst)_ZN6Attica11ItemPostJobINS_9PublisherEEC2EPNS_17PlatformDependentERK15QNetworkRequestP9QIODevice@Base 4.96.0
  (optional=templinst)_ZN6Attica11ItemPostJobINS_9PublisherEEC2EPNS_17PlatformDependentERK15QNetworkRequestRK4QMapI7QStringS9_E@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica11ItemPostJobINS_9PublisherEED0Ev@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica11ItemPostJobINS_9PublisherEED1Ev@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica11ItemPostJobINS_9PublisherEED2Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica11ItemPostJobINS_9PublisherEED0Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica11ItemPostJobINS_9PublisherEED1Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica11ItemPostJobINS_9PublisherEED2Ev@Base 4.96.0
  _ZN6Attica11PrivateData12setAttributeERK7QStringS3_@Base 4.96.0
  _ZN6Attica11PrivateData12setTimestampERK7QStringRK9QDateTime@Base 4.96.0
  _ZN6Attica11PrivateData6Parser8parseXmlER16QXmlStreamReader@Base 4.96.0
- (optional=gccinternal|arch=amd64)_ZN6Attica11PrivateData6ParserD0Ev@Base 4.96.0
- (optional=gccinternal|arch=amd64)_ZN6Attica11PrivateData6ParserD1Ev@Base 4.96.0
- (optional=gccinternal|arch=amd64)_ZN6Attica11PrivateData6ParserD2Ev@Base 4.96.0
+ (optional=gccinternal|arch=!amd64)_ZN6Attica11PrivateData6ParserD0Ev@Base 4.96.0
+ (optional=gccinternal|arch=!amd64)_ZN6Attica11PrivateData6ParserD1Ev@Base 4.96.0
+ (optional=gccinternal|arch=!amd64)_ZN6Attica11PrivateData6ParserD2Ev@Base 4.96.0
  _ZN6Attica11PrivateDataC1ERKS0_@Base 4.96.0
  _ZN6Attica11PrivateDataC1Ev@Base 4.96.0
  _ZN6Attica11PrivateDataC2ERKS0_@Base 4.96.0
@@ -130,9 +130,9 @@ libKF5Attica.so.5 libkf5attica5 #MINVER#
  _ZN6Attica11PrivateDataaSERKS0_@Base 4.96.0
  _ZN6Attica12BuildService5setIdERK7QString@Base 4.96.0
  _ZN6Attica12BuildService6Parser8parseXmlER16QXmlStreamReader@Base 4.96.0
- (optional=gccinternal|arch=amd64)_ZN6Attica12BuildService6ParserD0Ev@Base 4.96.0
- (optional=gccinternal|arch=amd64)_ZN6Attica12BuildService6ParserD1Ev@Base 4.96.0
- (optional=gccinternal|arch=amd64)_ZN6Attica12BuildService6ParserD2Ev@Base 4.96.0
+ (optional=gccinternal|arch=!amd64)_ZN6Attica12BuildService6ParserD0Ev@Base 4.96.0
+ (optional=gccinternal|arch=!amd64)_ZN6Attica12BuildService6ParserD1Ev@Base 4.96.0
+ (optional=gccinternal|arch=!amd64)_ZN6Attica12BuildService6ParserD2Ev@Base 4.96.0
  _ZN6Attica12BuildService6setUrlERK7QString@Base 4.96.0
  _ZN6Attica12BuildService7setNameERK7QString@Base 4.96.0
  _ZN6Attica12BuildService9addTargetERKNS_6TargetE@Base 4.96.0
@@ -145,9 +145,9 @@ libKF5Attica.so.5 libkf5attica5 #MINVER#
  _ZN6Attica12BuildServiceaSERKS0_@Base 4.96.0
  _ZN6Attica12Distribution5setIdEj@Base 4.96.0
  _ZN6Attica12Distribution6Parser8parseXmlER16QXmlStreamReader@Base 4.96.0
- (optional=gccinternal|arch=amd64)_ZN6Attica12Distribution6ParserD0Ev@Base 4.96.0
- (optional=gccinternal|arch=amd64)_ZN6Attica12Distribution6ParserD1Ev@Base 4.96.0
- (optional=gccinternal|arch=amd64)_ZN6Attica12Distribution6ParserD2Ev@Base 4.96.0
+ (optional=gccinternal|arch=!amd64)_ZN6Attica12Distribution6ParserD0Ev@Base 4.96.0
+ (optional=gccinternal|arch=!amd64)_ZN6Attica12Distribution6ParserD1Ev@Base 4.96.0
+ (optional=gccinternal|arch=!amd64)_ZN6Attica12Distribution6ParserD2Ev@Base 4.96.0
  _ZN6Attica12Distribution7setNameERK7QString@Base 4.96.0
  _ZN6Attica12DistributionC1ERKS0_@Base 4.96.0
  _ZN6Attica12DistributionC1Ev@Base 4.96.0
@@ -163,9 +163,9 @@ libKF5Attica.so.5 libkf5attica5 #MINVER#
  _ZN6Attica12DownloadItem20setPackageRepositoryERK7QString@Base 4.96.0
  _ZN6Attica12DownloadItem4typeEv@Base 4.96.0
  _ZN6Attica12DownloadItem6Parser8parseXmlER16QXmlStreamReader@Base 4.96.0
- (optional=gccinternal|arch=amd64)_ZN6Attica12DownloadItem6ParserD0Ev@Base 4.96.0
- (optional=gccinternal|arch=amd64)_ZN6Attica12DownloadItem6ParserD1Ev@Base 4.96.0
- (optional=gccinternal|arch=amd64)_ZN6Attica12DownloadItem6ParserD2Ev@Base 4.96.0
+ (optional=gccinternal|arch=!amd64)_ZN6Attica12DownloadItem6ParserD0Ev@Base 4.96.0
+ (optional=gccinternal|arch=!amd64)_ZN6Attica12DownloadItem6ParserD1Ev@Base 4.96.0
+ (optional=gccinternal|arch=!amd64)_ZN6Attica12DownloadItem6ParserD2Ev@Base 4.96.0
  _ZN6Attica12DownloadItem6setUrlERK4QUrl@Base 4.96.0
  _ZN6Attica12DownloadItem7setTypeENS_19DownloadDescription4TypeE@Base 4.96.0
  _ZN6Attica12DownloadItemC1ERKS0_@Base 4.96.0
@@ -177,9 +177,9 @@ libKF5Attica.so.5 libkf5attica5 #MINVER#
  _ZN6Attica12DownloadItemaSERKS0_@Base 4.96.0
  _ZN6Attica12HomePageType5setIdEj@Base 4.96.0
  _ZN6Attica12HomePageType6Parser8parseXmlER16QXmlStreamReader@Base 4.96.0
- (optional=gccinternal|arch=amd64)_ZN6Attica12HomePageType6ParserD0Ev@Base 4.96.0
- (optional=gccinternal|arch=amd64)_ZN6Attica12HomePageType6ParserD1Ev@Base 4.96.0
- (optional=gccinternal|arch=amd64)_ZN6Attica12HomePageType6ParserD2Ev@Base 4.96.0
+ (optional=gccinternal|arch=!amd64)_ZN6Attica12HomePageType6ParserD0Ev@Base 4.96.0
+ (optional=gccinternal|arch=!amd64)_ZN6Attica12HomePageType6ParserD1Ev@Base 4.96.0
+ (optional=gccinternal|arch=!amd64)_ZN6Attica12HomePageType6ParserD2Ev@Base 4.96.0
  _ZN6Attica12HomePageType7setNameERK7QString@Base 4.96.0
  _ZN6Attica12HomePageTypeC1ERKS0_@Base 4.96.0
  _ZN6Attica12HomePageTypeC1Ev@Base 4.96.0
@@ -200,16 +200,16 @@ libKF5Attica.so.5 libkf5attica5 #MINVER#
  (optional=templinst)_ZN6Attica13ItemDeleteJobINS_11AchievementEE5parseERK7QString@Base 4.96.0
  (optional=templinst)_ZN6Attica13ItemDeleteJobINS_11AchievementEEC1EPNS_17PlatformDependentERK15QNetworkRequest@Base 4.96.0
  (optional=templinst)_ZN6Attica13ItemDeleteJobINS_11AchievementEEC2EPNS_17PlatformDependentERK15QNetworkRequest@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica13ItemDeleteJobINS_11AchievementEED0Ev@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica13ItemDeleteJobINS_11AchievementEED1Ev@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica13ItemDeleteJobINS_11AchievementEED2Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica13ItemDeleteJobINS_11AchievementEED0Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica13ItemDeleteJobINS_11AchievementEED1Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica13ItemDeleteJobINS_11AchievementEED2Ev@Base 4.96.0
  _ZN6Attica13RemoteAccount11setPasswordERK7QString@Base 4.96.0
  _ZN6Attica13RemoteAccount18setRemoteServiceIdERK7QString@Base 4.96.0
  _ZN6Attica13RemoteAccount5setIdERK7QString@Base 4.96.0
  _ZN6Attica13RemoteAccount6Parser8parseXmlER16QXmlStreamReader@Base 4.96.0
- (optional=gccinternal|arch=amd64)_ZN6Attica13RemoteAccount6ParserD0Ev@Base 4.96.0
- (optional=gccinternal|arch=amd64)_ZN6Attica13RemoteAccount6ParserD1Ev@Base 4.96.0
- (optional=gccinternal|arch=amd64)_ZN6Attica13RemoteAccount6ParserD2Ev@Base 4.96.0
+ (optional=gccinternal|arch=!amd64)_ZN6Attica13RemoteAccount6ParserD0Ev@Base 4.96.0
+ (optional=gccinternal|arch=!amd64)_ZN6Attica13RemoteAccount6ParserD1Ev@Base 4.96.0
+ (optional=gccinternal|arch=!amd64)_ZN6Attica13RemoteAccount6ParserD2Ev@Base 4.96.0
  _ZN6Attica13RemoteAccount7setDataERK7QString@Base 4.96.0
  _ZN6Attica13RemoteAccount7setTypeERK7QString@Base 4.96.0
  _ZN6Attica13RemoteAccount8setLoginERK7QString@Base 4.96.0
@@ -223,9 +223,9 @@ libKF5Attica.so.5 libkf5attica5 #MINVER#
  _ZN6Attica14AccountBalance10setBalanceERK7QString@Base 4.96.0
  _ZN6Attica14AccountBalance11setCurrencyERK7QString@Base 4.96.0
  _ZN6Attica14AccountBalance6Parser8parseXmlER16QXmlStreamReader@Base 4.96.0
- (optional=gccinternal|arch=amd64)_ZN6Attica14AccountBalance6ParserD0Ev@Base 4.96.0
- (optional=gccinternal|arch=amd64)_ZN6Attica14AccountBalance6ParserD1Ev@Base 4.96.0
- (optional=gccinternal|arch=amd64)_ZN6Attica14AccountBalance6ParserD2Ev@Base 4.96.0
+ (optional=gccinternal|arch=!amd64)_ZN6Attica14AccountBalance6ParserD0Ev@Base 4.96.0
+ (optional=gccinternal|arch=!amd64)_ZN6Attica14AccountBalance6ParserD1Ev@Base 4.96.0
+ (optional=gccinternal|arch=!amd64)_ZN6Attica14AccountBalance6ParserD2Ev@Base 4.96.0
  _ZN6Attica14AccountBalanceC1ERKS0_@Base 4.96.0
  _ZN6Attica14AccountBalanceC1Ev@Base 4.96.0
  _ZN6Attica14AccountBalanceC2ERKS0_@Base 4.96.0
@@ -234,9 +234,9 @@ libKF5Attica.so.5 libkf5attica5 #MINVER#
  _ZN6Attica14AccountBalanceD2Ev@Base 4.96.0
  _ZN6Attica14AccountBalanceaSERKS0_@Base 4.96.0
  _ZN6Attica14PublisherField6Parser8parseXmlER16QXmlStreamReader@Base 4.96.0
- (optional=gccinternal|arch=amd64)_ZN6Attica14PublisherField6ParserD0Ev@Base 4.96.0
- (optional=gccinternal|arch=amd64)_ZN6Attica14PublisherField6ParserD1Ev@Base 4.96.0
- (optional=gccinternal|arch=amd64)_ZN6Attica14PublisherField6ParserD2Ev@Base 4.96.0
+ (optional=gccinternal|arch=!amd64)_ZN6Attica14PublisherField6ParserD0Ev@Base 4.96.0
+ (optional=gccinternal|arch=!amd64)_ZN6Attica14PublisherField6ParserD1Ev@Base 4.96.0
+ (optional=gccinternal|arch=!amd64)_ZN6Attica14PublisherField6ParserD2Ev@Base 4.96.0
  _ZN6Attica14PublisherField7setDataERK7QString@Base 4.96.0
  _ZN6Attica14PublisherField7setNameERK7QString@Base 4.96.0
  _ZN6Attica14PublisherField7setTypeERK7QString@Base 4.96.0
@@ -253,9 +253,9 @@ libKF5Attica.so.5 libkf5attica5 #MINVER#
  _ZN6Attica15BuildServiceJob17setBuildServiceIdERK7QString@Base 4.96.0
  _ZN6Attica15BuildServiceJob5setIdERK7QString@Base 4.96.0
  _ZN6Attica15BuildServiceJob6Parser8parseXmlER16QXmlStreamReader@Base 4.96.0
- (optional=gccinternal|arch=amd64)_ZN6Attica15BuildServiceJob6ParserD0Ev@Base 4.96.0
- (optional=gccinternal|arch=amd64)_ZN6Attica15BuildServiceJob6ParserD1Ev@Base 4.96.0
- (optional=gccinternal|arch=amd64)_ZN6Attica15BuildServiceJob6ParserD2Ev@Base 4.96.0
+ (optional=gccinternal|arch=!amd64)_ZN6Attica15BuildServiceJob6ParserD0Ev@Base 4.96.0
+ (optional=gccinternal|arch=!amd64)_ZN6Attica15BuildServiceJob6ParserD1Ev@Base 4.96.0
+ (optional=gccinternal|arch=!amd64)_ZN6Attica15BuildServiceJob6ParserD2Ev@Base 4.96.0
  _ZN6Attica15BuildServiceJob6setUrlERK7QString@Base 4.96.0
  _ZN6Attica15BuildServiceJob7setNameERK7QString@Base 4.96.0
  _ZN6Attica15BuildServiceJob9setStatusEi@Base 4.96.0
@@ -301,9 +301,9 @@ libKF5Attica.so.5 libkf5attica5 #MINVER#
  _ZN6Attica18KnowledgeBaseEntry20addExtendedAttributeERK7QStringS3_@Base 4.96.0
  _ZN6Attica18KnowledgeBaseEntry5setIdE7QString@Base 4.96.0
  _ZN6Attica18KnowledgeBaseEntry6Parser8parseXmlER16QXmlStreamReader@Base 4.96.0
- (optional=gccinternal|arch=amd64)_ZN6Attica18KnowledgeBaseEntry6ParserD0Ev@Base 4.96.0
- (optional=gccinternal|arch=amd64)_ZN6Attica18KnowledgeBaseEntry6ParserD1Ev@Base 4.96.0
- (optional=gccinternal|arch=amd64)_ZN6Attica18KnowledgeBaseEntry6ParserD2Ev@Base 4.96.0
+ (optional=gccinternal|arch=!amd64)_ZN6Attica18KnowledgeBaseEntry6ParserD0Ev@Base 4.96.0
+ (optional=gccinternal|arch=!amd64)_ZN6Attica18KnowledgeBaseEntry6ParserD1Ev@Base 4.96.0
+ (optional=gccinternal|arch=!amd64)_ZN6Attica18KnowledgeBaseEntry6ParserD2Ev@Base 4.96.0
  _ZN6Attica18KnowledgeBaseEntry7setNameERK7QString@Base 4.96.0
  _ZN6Attica18KnowledgeBaseEntry7setUserERK7QString@Base 4.96.0
  _ZN6Attica18KnowledgeBaseEntry9setAnswerERK7QString@Base 4.96.0
@@ -353,9 +353,9 @@ libKF5Attica.so.5 libkf5attica5 #MINVER#
  _ZN6Attica19DownloadDescriptionD2Ev@Base 4.96.0
  _ZN6Attica19DownloadDescriptionaSERKS0_@Base 4.96.0
  _ZN6Attica21BuildServiceJobOutput6Parser8parseXmlER16QXmlStreamReader@Base 4.96.0
- (optional=gccinternal|arch=amd64)_ZN6Attica21BuildServiceJobOutput6ParserD0Ev@Base 4.96.0
- (optional=gccinternal|arch=amd64)_ZN6Attica21BuildServiceJobOutput6ParserD1Ev@Base 4.96.0
- (optional=gccinternal|arch=amd64)_ZN6Attica21BuildServiceJobOutput6ParserD2Ev@Base 4.96.0
+ (optional=gccinternal|arch=!amd64)_ZN6Attica21BuildServiceJobOutput6ParserD0Ev@Base 4.96.0
+ (optional=gccinternal|arch=!amd64)_ZN6Attica21BuildServiceJobOutput6ParserD1Ev@Base 4.96.0
+ (optional=gccinternal|arch=!amd64)_ZN6Attica21BuildServiceJobOutput6ParserD2Ev@Base 4.96.0
  _ZN6Attica21BuildServiceJobOutput9setOutputERK7QString@Base 4.96.0
  _ZN6Attica21BuildServiceJobOutputC1ERKS0_@Base 4.96.0
  _ZN6Attica21BuildServiceJobOutputC1Ev@Base 4.96.0
@@ -384,9 +384,9 @@ libKF5Attica.so.5 libkf5attica5 #MINVER#
  _ZN6Attica5Event20addExtendedAttributeERK7QStringS3_@Base 4.96.0
  _ZN6Attica5Event5setIdERK7QString@Base 4.96.0
  _ZN6Attica5Event6Parser8parseXmlER16QXmlStreamReader@Base 4.96.0
- (optional=gccinternal|arch=amd64)_ZN6Attica5Event6ParserD0Ev@Base 4.96.0
- (optional=gccinternal|arch=amd64)_ZN6Attica5Event6ParserD1Ev@Base 4.96.0
- (optional=gccinternal|arch=amd64)_ZN6Attica5Event6ParserD2Ev@Base 4.96.0
+ (optional=gccinternal|arch=!amd64)_ZN6Attica5Event6ParserD0Ev@Base 4.96.0
+ (optional=gccinternal|arch=!amd64)_ZN6Attica5Event6ParserD1Ev@Base 4.96.0
+ (optional=gccinternal|arch=!amd64)_ZN6Attica5Event6ParserD2Ev@Base 4.96.0
  _ZN6Attica5Event7setCityERK7QString@Base 4.96.0
  _ZN6Attica5Event7setNameERK7QString@Base 4.96.0
  _ZN6Attica5Event7setUserERK7QString@Base 4.96.0
@@ -403,9 +403,9 @@ libKF5Attica.so.5 libkf5attica5 #MINVER#
  _ZN6Attica5Forum5setIdERK7QString@Base 4.96.0
  _ZN6Attica5Forum6Parser16parseXmlChildrenER16QXmlStreamReader@Base 4.96.0
  _ZN6Attica5Forum6Parser8parseXmlER16QXmlStreamReader@Base 4.96.0
- (optional=gccinternal|arch=amd64)_ZN6Attica5Forum6ParserD0Ev@Base 4.96.0
- (optional=gccinternal|arch=amd64)_ZN6Attica5Forum6ParserD1Ev@Base 4.96.0
- (optional=gccinternal|arch=amd64)_ZN6Attica5Forum6ParserD2Ev@Base 4.96.0
+ (optional=gccinternal|arch=!amd64)_ZN6Attica5Forum6ParserD0Ev@Base 4.96.0
+ (optional=gccinternal|arch=!amd64)_ZN6Attica5Forum6ParserD1Ev@Base 4.96.0
+ (optional=gccinternal|arch=!amd64)_ZN6Attica5Forum6ParserD2Ev@Base 4.96.0
  _ZN6Attica5Forum7setDateERK9QDateTime@Base 4.96.0
  _ZN6Attica5Forum7setIconERK4QUrl@Base 4.96.0
  _ZN6Attica5Forum7setNameERK7QString@Base 4.96.0
@@ -423,9 +423,9 @@ libKF5Attica.so.5 libkf5attica5 #MINVER#
  _ZN6Attica5Topic11setCommentsEi@Base 4.96.0
  _ZN6Attica5Topic5setIdERK7QString@Base 4.96.0
  _ZN6Attica5Topic6Parser8parseXmlER16QXmlStreamReader@Base 4.96.0
- (optional=gccinternal|arch=amd64)_ZN6Attica5Topic6ParserD0Ev@Base 4.96.0
- (optional=gccinternal|arch=amd64)_ZN6Attica5Topic6ParserD1Ev@Base 4.96.0
- (optional=gccinternal|arch=amd64)_ZN6Attica5Topic6ParserD2Ev@Base 4.96.0
+ (optional=gccinternal|arch=!amd64)_ZN6Attica5Topic6ParserD0Ev@Base 4.96.0
+ (optional=gccinternal|arch=!amd64)_ZN6Attica5Topic6ParserD1Ev@Base 4.96.0
+ (optional=gccinternal|arch=!amd64)_ZN6Attica5Topic6ParserD2Ev@Base 4.96.0
  _ZN6Attica5Topic7setDateERK9QDateTime@Base 4.96.0
  _ZN6Attica5Topic7setUserERK7QString@Base 4.96.0
  _ZN6Attica5TopicC1ERKS0_@Base 4.96.0
@@ -438,9 +438,9 @@ libKF5Attica.so.5 libkf5attica5 #MINVER#
  _ZN6Attica6Folder15setMessageCountEi@Base 4.96.0
  _ZN6Attica6Folder5setIdERK7QString@Base 4.96.0
  _ZN6Attica6Folder6Parser8parseXmlER16QXmlStreamReader@Base 4.96.0
- (optional=gccinternal|arch=amd64)_ZN6Attica6Folder6ParserD0Ev@Base 4.96.0
- (optional=gccinternal|arch=amd64)_ZN6Attica6Folder6ParserD1Ev@Base 4.96.0
- (optional=gccinternal|arch=amd64)_ZN6Attica6Folder6ParserD2Ev@Base 4.96.0
+ (optional=gccinternal|arch=!amd64)_ZN6Attica6Folder6ParserD0Ev@Base 4.96.0
+ (optional=gccinternal|arch=!amd64)_ZN6Attica6Folder6ParserD1Ev@Base 4.96.0
+ (optional=gccinternal|arch=!amd64)_ZN6Attica6Folder6ParserD2Ev@Base 4.96.0
  _ZN6Attica6Folder7setNameERK7QString@Base 4.96.0
  _ZN6Attica6Folder7setTypeERK7QString@Base 4.96.0
  _ZN6Attica6FolderC1ERKS0_@Base 4.96.0
@@ -617,9 +617,9 @@ libKF5Attica.so.5 libkf5attica5 #MINVER#
  _ZN6Attica6Person20addExtendedAttributeERK7QStringS3_@Base 4.96.0
  _ZN6Attica6Person5setIdERK7QString@Base 4.96.0
  _ZN6Attica6Person6Parser8parseXmlER16QXmlStreamReader@Base 4.96.0
- (optional=gccinternal|arch=amd64)_ZN6Attica6Person6ParserD0Ev@Base 4.96.0
- (optional=gccinternal|arch=amd64)_ZN6Attica6Person6ParserD1Ev@Base 4.96.0
- (optional=gccinternal|arch=amd64)_ZN6Attica6Person6ParserD2Ev@Base 4.96.0
+ (optional=gccinternal|arch=!amd64)_ZN6Attica6Person6ParserD0Ev@Base 4.96.0
+ (optional=gccinternal|arch=!amd64)_ZN6Attica6Person6ParserD1Ev@Base 4.96.0
+ (optional=gccinternal|arch=!amd64)_ZN6Attica6Person6ParserD2Ev@Base 4.96.0
  _ZN6Attica6Person7setCityERK7QString@Base 4.96.0
  _ZN6Attica6PersonC1ERKS0_@Base 4.96.0
  _ZN6Attica6PersonC1Ev@Base 4.96.0
@@ -639,9 +639,9 @@ libKF5Attica.so.5 libkf5attica5 #MINVER#
  _ZN6Attica6PutJobC2EPNS_17PlatformDependentERK15QNetworkRequestP9QIODevice@Base 4.96.0
  _ZN6Attica6PutJobC2EPNS_17PlatformDependentERK15QNetworkRequestRK10QByteArray@Base 4.96.0
  _ZN6Attica6PutJobC2EPNS_17PlatformDependentERK15QNetworkRequestRK4QMapI7QStringS7_E@Base 4.96.0
- (optional=gccinternal|arch=amd64)_ZN6Attica6PutJobD0Ev@Base 4.96.0
- (optional=gccinternal|arch=amd64)_ZN6Attica6PutJobD1Ev@Base 4.96.0
- (optional=gccinternal|arch=amd64)_ZN6Attica6PutJobD2Ev@Base 4.96.0
+ (optional=gccinternal|arch=!amd64)_ZN6Attica6PutJobD0Ev@Base 4.96.0
+ (optional=gccinternal|arch=!amd64)_ZN6Attica6PutJobD1Ev@Base 4.96.0
+ (optional=gccinternal|arch=!amd64)_ZN6Attica6PutJobD2Ev@Base 4.96.0
  _ZN6Attica7BaseJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN6Attica7BaseJob11qt_metacastEPKc@Base 4.96.0
  _ZN6Attica7BaseJob12dataFinishedEv@Base 4.96.0
@@ -664,9 +664,9 @@ libKF5Attica.so.5 libkf5attica5 #MINVER#
  _ZN6Attica7Comment5setIdERK7QString@Base 4.96.0
  _ZN6Attica7Comment6Parser16parseXmlChildrenER16QXmlStreamReader@Base 4.96.0
  _ZN6Attica7Comment6Parser8parseXmlER16QXmlStreamReader@Base 4.96.0
- (optional=gccinternal|arch=amd64)_ZN6Attica7Comment6ParserD0Ev@Base 4.96.0
- (optional=gccinternal|arch=amd64)_ZN6Attica7Comment6ParserD1Ev@Base 4.96.0
- (optional=gccinternal|arch=amd64)_ZN6Attica7Comment6ParserD2Ev@Base 4.96.0
+ (optional=gccinternal|arch=!amd64)_ZN6Attica7Comment6ParserD0Ev@Base 4.96.0
+ (optional=gccinternal|arch=!amd64)_ZN6Attica7Comment6ParserD1Ev@Base 4.96.0
+ (optional=gccinternal|arch=!amd64)_ZN6Attica7Comment6ParserD2Ev@Base 4.96.0
  _ZN6Attica7Comment7setDateERK9QDateTime@Base 4.96.0
  _ZN6Attica7Comment7setTextERK7QString@Base 4.96.0
  _ZN6Attica7Comment7setUserERK7QString@Base 4.96.0
@@ -687,9 +687,9 @@ libKF5Attica.so.5 libkf5attica5 #MINVER#
  _ZN6Attica7Content5iconsEv@Base 4.96.0
  _ZN6Attica7Content5setIdERK7QString@Base 4.96.0
  _ZN6Attica7Content6Parser8parseXmlER16QXmlStreamReader@Base 4.96.0
- (optional=gccinternal|arch=amd64)_ZN6Attica7Content6ParserD0Ev@Base 4.96.0
- (optional=gccinternal|arch=amd64)_ZN6Attica7Content6ParserD1Ev@Base 4.96.0
- (optional=gccinternal|arch=amd64)_ZN6Attica7Content6ParserD2Ev@Base 4.96.0
+ (optional=gccinternal|arch=!amd64)_ZN6Attica7Content6ParserD0Ev@Base 4.96.0
+ (optional=gccinternal|arch=!amd64)_ZN6Attica7Content6ParserD1Ev@Base 4.96.0
+ (optional=gccinternal|arch=!amd64)_ZN6Attica7Content6ParserD2Ev@Base 4.96.0
  _ZN6Attica7Content6videosEv@Base 4.96.0
  _ZN6Attica7Content7setNameERK7QString@Base 4.96.0
  _ZN6Attica7Content8setIconsE5QListINS_4IconEE@Base 4.96.0
@@ -705,104 +705,104 @@ libKF5Attica.so.5 libkf5attica5 #MINVER#
  (optional=templinst)_ZN6Attica7ItemJobINS_11AchievementEE5parseERK7QString@Base 4.96.0
  (optional=templinst)_ZN6Attica7ItemJobINS_11AchievementEEC1EPNS_17PlatformDependentERK15QNetworkRequest@Base 4.96.0
  (optional=templinst)_ZN6Attica7ItemJobINS_11AchievementEEC2EPNS_17PlatformDependentERK15QNetworkRequest@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica7ItemJobINS_11AchievementEED0Ev@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica7ItemJobINS_11AchievementEED1Ev@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica7ItemJobINS_11AchievementEED2Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica7ItemJobINS_11AchievementEED0Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica7ItemJobINS_11AchievementEED1Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica7ItemJobINS_11AchievementEED2Ev@Base 4.96.0
  (optional=templinst)_ZN6Attica7ItemJobINS_11PrivateDataEE5parseERK7QString@Base 4.96.0
  (optional=templinst)_ZN6Attica7ItemJobINS_11PrivateDataEEC1EPNS_17PlatformDependentERK15QNetworkRequest@Base 4.96.0
  (optional=templinst)_ZN6Attica7ItemJobINS_11PrivateDataEEC2EPNS_17PlatformDependentERK15QNetworkRequest@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica7ItemJobINS_11PrivateDataEED0Ev@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica7ItemJobINS_11PrivateDataEED1Ev@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica7ItemJobINS_11PrivateDataEED2Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica7ItemJobINS_11PrivateDataEED0Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica7ItemJobINS_11PrivateDataEED1Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica7ItemJobINS_11PrivateDataEED2Ev@Base 4.96.0
  (optional=templinst)_ZN6Attica7ItemJobINS_12BuildServiceEE5parseERK7QString@Base 4.96.0
  (optional=templinst)_ZN6Attica7ItemJobINS_12BuildServiceEEC1EPNS_17PlatformDependentERK15QNetworkRequest@Base 4.96.0
  (optional=templinst)_ZN6Attica7ItemJobINS_12BuildServiceEEC2EPNS_17PlatformDependentERK15QNetworkRequest@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica7ItemJobINS_12BuildServiceEED0Ev@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica7ItemJobINS_12BuildServiceEED1Ev@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica7ItemJobINS_12BuildServiceEED2Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica7ItemJobINS_12BuildServiceEED0Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica7ItemJobINS_12BuildServiceEED1Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica7ItemJobINS_12BuildServiceEED2Ev@Base 4.96.0
  (optional=templinst)_ZN6Attica7ItemJobINS_12DownloadItemEE5parseERK7QString@Base 4.96.0
  (optional=templinst)_ZN6Attica7ItemJobINS_12DownloadItemEEC1EPNS_17PlatformDependentERK15QNetworkRequest@Base 4.96.0
  (optional=templinst)_ZN6Attica7ItemJobINS_12DownloadItemEEC2EPNS_17PlatformDependentERK15QNetworkRequest@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica7ItemJobINS_12DownloadItemEED0Ev@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica7ItemJobINS_12DownloadItemEED1Ev@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica7ItemJobINS_12DownloadItemEED2Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica7ItemJobINS_12DownloadItemEED0Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica7ItemJobINS_12DownloadItemEED1Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica7ItemJobINS_12DownloadItemEED2Ev@Base 4.96.0
  (optional=templinst)_ZN6Attica7ItemJobINS_13RemoteAccountEE5parseERK7QString@Base 4.96.0
  (optional=templinst)_ZN6Attica7ItemJobINS_13RemoteAccountEEC1EPNS_17PlatformDependentERK15QNetworkRequest@Base 4.96.0
  (optional=templinst)_ZN6Attica7ItemJobINS_13RemoteAccountEEC2EPNS_17PlatformDependentERK15QNetworkRequest@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica7ItemJobINS_13RemoteAccountEED0Ev@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica7ItemJobINS_13RemoteAccountEED1Ev@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica7ItemJobINS_13RemoteAccountEED2Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica7ItemJobINS_13RemoteAccountEED0Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica7ItemJobINS_13RemoteAccountEED1Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica7ItemJobINS_13RemoteAccountEED2Ev@Base 4.96.0
  (optional=templinst)_ZN6Attica7ItemJobINS_14AccountBalanceEE5parseERK7QString@Base 4.96.0
  (optional=templinst)_ZN6Attica7ItemJobINS_14AccountBalanceEEC1EPNS_17PlatformDependentERK15QNetworkRequest@Base 4.96.0
  (optional=templinst)_ZN6Attica7ItemJobINS_14AccountBalanceEEC2EPNS_17PlatformDependentERK15QNetworkRequest@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica7ItemJobINS_14AccountBalanceEED0Ev@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica7ItemJobINS_14AccountBalanceEED1Ev@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica7ItemJobINS_14AccountBalanceEED2Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica7ItemJobINS_14AccountBalanceEED0Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica7ItemJobINS_14AccountBalanceEED1Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica7ItemJobINS_14AccountBalanceEED2Ev@Base 4.96.0
  (optional=templinst)_ZN6Attica7ItemJobINS_15BuildServiceJobEE5parseERK7QString@Base 4.96.0
  (optional=templinst)_ZN6Attica7ItemJobINS_15BuildServiceJobEEC1EPNS_17PlatformDependentERK15QNetworkRequest@Base 4.96.0
  (optional=templinst)_ZN6Attica7ItemJobINS_15BuildServiceJobEEC2EPNS_17PlatformDependentERK15QNetworkRequest@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica7ItemJobINS_15BuildServiceJobEED0Ev@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica7ItemJobINS_15BuildServiceJobEED1Ev@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica7ItemJobINS_15BuildServiceJobEED2Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica7ItemJobINS_15BuildServiceJobEED0Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica7ItemJobINS_15BuildServiceJobEED1Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica7ItemJobINS_15BuildServiceJobEED2Ev@Base 4.96.0
  (optional=templinst)_ZN6Attica7ItemJobINS_18KnowledgeBaseEntryEE5parseERK7QString@Base 4.96.0
  (optional=templinst)_ZN6Attica7ItemJobINS_18KnowledgeBaseEntryEEC1EPNS_17PlatformDependentERK15QNetworkRequest@Base 4.96.0
  (optional=templinst)_ZN6Attica7ItemJobINS_18KnowledgeBaseEntryEEC2EPNS_17PlatformDependentERK15QNetworkRequest@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica7ItemJobINS_18KnowledgeBaseEntryEED0Ev@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica7ItemJobINS_18KnowledgeBaseEntryEED1Ev@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica7ItemJobINS_18KnowledgeBaseEntryEED2Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica7ItemJobINS_18KnowledgeBaseEntryEED0Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica7ItemJobINS_18KnowledgeBaseEntryEED1Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica7ItemJobINS_18KnowledgeBaseEntryEED2Ev@Base 4.96.0
  (optional=templinst)_ZN6Attica7ItemJobINS_21BuildServiceJobOutputEE5parseERK7QString@Base 4.96.0
  (optional=templinst)_ZN6Attica7ItemJobINS_21BuildServiceJobOutputEEC1EPNS_17PlatformDependentERK15QNetworkRequest@Base 4.96.0
  (optional=templinst)_ZN6Attica7ItemJobINS_21BuildServiceJobOutputEEC2EPNS_17PlatformDependentERK15QNetworkRequest@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica7ItemJobINS_21BuildServiceJobOutputEED0Ev@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica7ItemJobINS_21BuildServiceJobOutputEED1Ev@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica7ItemJobINS_21BuildServiceJobOutputEED2Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica7ItemJobINS_21BuildServiceJobOutputEED0Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica7ItemJobINS_21BuildServiceJobOutputEED1Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica7ItemJobINS_21BuildServiceJobOutputEED2Ev@Base 4.96.0
  (optional=templinst)_ZN6Attica7ItemJobINS_5EventEE5parseERK7QString@Base 4.96.0
  (optional=templinst)_ZN6Attica7ItemJobINS_5EventEEC1EPNS_17PlatformDependentERK15QNetworkRequest@Base 4.96.0
  (optional=templinst)_ZN6Attica7ItemJobINS_5EventEEC2EPNS_17PlatformDependentERK15QNetworkRequest@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica7ItemJobINS_5EventEED0Ev@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica7ItemJobINS_5EventEED1Ev@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica7ItemJobINS_5EventEED2Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica7ItemJobINS_5EventEED0Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica7ItemJobINS_5EventEED1Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica7ItemJobINS_5EventEED2Ev@Base 4.96.0
  (optional=templinst)_ZN6Attica7ItemJobINS_5ForumEE5parseERK7QString@Base 4.96.0
  (optional=templinst)_ZN6Attica7ItemJobINS_5ForumEEC1EPNS_17PlatformDependentERK15QNetworkRequest@Base 4.96.0
  (optional=templinst)_ZN6Attica7ItemJobINS_5ForumEEC2EPNS_17PlatformDependentERK15QNetworkRequest@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica7ItemJobINS_5ForumEED0Ev@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica7ItemJobINS_5ForumEED1Ev@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica7ItemJobINS_5ForumEED2Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica7ItemJobINS_5ForumEED0Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica7ItemJobINS_5ForumEED1Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica7ItemJobINS_5ForumEED2Ev@Base 4.96.0
  (optional=templinst)_ZN6Attica7ItemJobINS_6PersonEE5parseERK7QString@Base 4.96.0
  (optional=templinst)_ZN6Attica7ItemJobINS_6PersonEEC1EPNS_17PlatformDependentERK15QNetworkRequest@Base 4.96.0
  (optional=templinst)_ZN6Attica7ItemJobINS_6PersonEEC2EPNS_17PlatformDependentERK15QNetworkRequest@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica7ItemJobINS_6PersonEED0Ev@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica7ItemJobINS_6PersonEED1Ev@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica7ItemJobINS_6PersonEED2Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica7ItemJobINS_6PersonEED0Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica7ItemJobINS_6PersonEED1Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica7ItemJobINS_6PersonEED2Ev@Base 4.96.0
  (optional=templinst)_ZN6Attica7ItemJobINS_7ContentEE5parseERK7QString@Base 4.96.0
  (optional=templinst)_ZN6Attica7ItemJobINS_7ContentEEC1EPNS_17PlatformDependentERK15QNetworkRequest@Base 4.96.0
  (optional=templinst)_ZN6Attica7ItemJobINS_7ContentEEC2EPNS_17PlatformDependentERK15QNetworkRequest@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica7ItemJobINS_7ContentEED0Ev@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica7ItemJobINS_7ContentEED1Ev@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica7ItemJobINS_7ContentEED2Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica7ItemJobINS_7ContentEED0Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica7ItemJobINS_7ContentEED1Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica7ItemJobINS_7ContentEED2Ev@Base 4.96.0
  (optional=templinst)_ZN6Attica7ItemJobINS_7MessageEE5parseERK7QString@Base 4.96.0
  (optional=templinst)_ZN6Attica7ItemJobINS_7MessageEEC1EPNS_17PlatformDependentERK15QNetworkRequest@Base 4.96.0
  (optional=templinst)_ZN6Attica7ItemJobINS_7MessageEEC2EPNS_17PlatformDependentERK15QNetworkRequest@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica7ItemJobINS_7MessageEED0Ev@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica7ItemJobINS_7MessageEED1Ev@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica7ItemJobINS_7MessageEED2Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica7ItemJobINS_7MessageEED0Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica7ItemJobINS_7MessageEED1Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica7ItemJobINS_7MessageEED2Ev@Base 4.96.0
  (optional=templinst)_ZN6Attica7ItemJobINS_7ProjectEE5parseERK7QString@Base 4.96.0
  (optional=templinst)_ZN6Attica7ItemJobINS_7ProjectEEC1EPNS_17PlatformDependentERK15QNetworkRequest@Base 4.96.0
  (optional=templinst)_ZN6Attica7ItemJobINS_7ProjectEEC2EPNS_17PlatformDependentERK15QNetworkRequest@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica7ItemJobINS_7ProjectEED0Ev@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica7ItemJobINS_7ProjectEED1Ev@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica7ItemJobINS_7ProjectEED2Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica7ItemJobINS_7ProjectEED0Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica7ItemJobINS_7ProjectEED1Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica7ItemJobINS_7ProjectEED2Ev@Base 4.96.0
  (optional=templinst)_ZN6Attica7ItemJobINS_9PublisherEE5parseERK7QString@Base 4.96.0
  (optional=templinst)_ZN6Attica7ItemJobINS_9PublisherEEC1EPNS_17PlatformDependentERK15QNetworkRequest@Base 4.96.0
  (optional=templinst)_ZN6Attica7ItemJobINS_9PublisherEEC2EPNS_17PlatformDependentERK15QNetworkRequest@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica7ItemJobINS_9PublisherEED0Ev@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica7ItemJobINS_9PublisherEED1Ev@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica7ItemJobINS_9PublisherEED2Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica7ItemJobINS_9PublisherEED0Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica7ItemJobINS_9PublisherEED1Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica7ItemJobINS_9PublisherEED2Ev@Base 4.96.0
  _ZN6Attica7License5setIdEj@Base 4.96.0
  _ZN6Attica7License6Parser8parseXmlER16QXmlStreamReader@Base 4.96.0
- (optional=gccinternal|arch=amd64)_ZN6Attica7License6ParserD0Ev@Base 4.96.0
- (optional=gccinternal|arch=amd64)_ZN6Attica7License6ParserD1Ev@Base 4.96.0
- (optional=gccinternal|arch=amd64)_ZN6Attica7License6ParserD2Ev@Base 4.96.0
+ (optional=gccinternal|arch=!amd64)_ZN6Attica7License6ParserD0Ev@Base 4.96.0
+ (optional=gccinternal|arch=!amd64)_ZN6Attica7License6ParserD1Ev@Base 4.96.0
+ (optional=gccinternal|arch=!amd64)_ZN6Attica7License6ParserD2Ev@Base 4.96.0
  _ZN6Attica7License6setUrlERK4QUrl@Base 4.96.0
  _ZN6Attica7License7setNameERK7QString@Base 4.96.0
  _ZN6Attica7LicenseC1ERKS0_@Base 4.96.0
@@ -815,142 +815,142 @@ libKF5Attica.so.5 libkf5attica5 #MINVER#
  (optional=templinst)_ZN6Attica7ListJobINS_11AchievementEE5parseERK7QString@Base 4.96.0
  (optional=templinst)_ZN6Attica7ListJobINS_11AchievementEEC1EPNS_17PlatformDependentERK15QNetworkRequest@Base 4.96.0
  (optional=templinst)_ZN6Attica7ListJobINS_11AchievementEEC2EPNS_17PlatformDependentERK15QNetworkRequest@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica7ListJobINS_11AchievementEED0Ev@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica7ListJobINS_11AchievementEED1Ev@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica7ListJobINS_11AchievementEED2Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica7ListJobINS_11AchievementEED0Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica7ListJobINS_11AchievementEED1Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica7ListJobINS_11AchievementEED2Ev@Base 4.96.0
  (optional=templinst)_ZN6Attica7ListJobINS_12BuildServiceEE5parseERK7QString@Base 4.96.0
  (optional=templinst)_ZN6Attica7ListJobINS_12BuildServiceEEC1EPNS_17PlatformDependentERK15QNetworkRequest@Base 4.96.0
  (optional=templinst)_ZN6Attica7ListJobINS_12BuildServiceEEC2EPNS_17PlatformDependentERK15QNetworkRequest@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica7ListJobINS_12BuildServiceEED0Ev@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica7ListJobINS_12BuildServiceEED1Ev@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica7ListJobINS_12BuildServiceEED2Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica7ListJobINS_12BuildServiceEED0Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica7ListJobINS_12BuildServiceEED1Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica7ListJobINS_12BuildServiceEED2Ev@Base 4.96.0
  (optional=templinst)_ZN6Attica7ListJobINS_12DistributionEE5parseERK7QString@Base 4.96.0
  (optional=templinst)_ZN6Attica7ListJobINS_12DistributionEEC1EPNS_17PlatformDependentERK15QNetworkRequest@Base 4.96.0
  (optional=templinst)_ZN6Attica7ListJobINS_12DistributionEEC2EPNS_17PlatformDependentERK15QNetworkRequest@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica7ListJobINS_12DistributionEED0Ev@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica7ListJobINS_12DistributionEED1Ev@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica7ListJobINS_12DistributionEED2Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica7ListJobINS_12DistributionEED0Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica7ListJobINS_12DistributionEED1Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica7ListJobINS_12DistributionEED2Ev@Base 4.96.0
  (optional=templinst)_ZN6Attica7ListJobINS_12DownloadItemEE5parseERK7QString@Base 4.96.0
  (optional=templinst)_ZN6Attica7ListJobINS_12DownloadItemEEC1EPNS_17PlatformDependentERK15QNetworkRequest@Base 4.96.0
  (optional=templinst)_ZN6Attica7ListJobINS_12DownloadItemEEC2EPNS_17PlatformDependentERK15QNetworkRequest@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica7ListJobINS_12DownloadItemEED0Ev@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica7ListJobINS_12DownloadItemEED1Ev@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica7ListJobINS_12DownloadItemEED2Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica7ListJobINS_12DownloadItemEED0Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica7ListJobINS_12DownloadItemEED1Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica7ListJobINS_12DownloadItemEED2Ev@Base 4.96.0
  (optional=templinst)_ZN6Attica7ListJobINS_12HomePageTypeEE5parseERK7QString@Base 4.96.0
  (optional=templinst)_ZN6Attica7ListJobINS_12HomePageTypeEEC1EPNS_17PlatformDependentERK15QNetworkRequest@Base 4.96.0
  (optional=templinst)_ZN6Attica7ListJobINS_12HomePageTypeEEC2EPNS_17PlatformDependentERK15QNetworkRequest@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica7ListJobINS_12HomePageTypeEED0Ev@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica7ListJobINS_12HomePageTypeEED1Ev@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica7ListJobINS_12HomePageTypeEED2Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica7ListJobINS_12HomePageTypeEED0Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica7ListJobINS_12HomePageTypeEED1Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica7ListJobINS_12HomePageTypeEED2Ev@Base 4.96.0
  (optional=templinst)_ZN6Attica7ListJobINS_13RemoteAccountEE5parseERK7QString@Base 4.96.0
  (optional=templinst)_ZN6Attica7ListJobINS_13RemoteAccountEEC1EPNS_17PlatformDependentERK15QNetworkRequest@Base 4.96.0
  (optional=templinst)_ZN6Attica7ListJobINS_13RemoteAccountEEC2EPNS_17PlatformDependentERK15QNetworkRequest@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica7ListJobINS_13RemoteAccountEED0Ev@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica7ListJobINS_13RemoteAccountEED1Ev@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica7ListJobINS_13RemoteAccountEED2Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica7ListJobINS_13RemoteAccountEED0Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica7ListJobINS_13RemoteAccountEED1Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica7ListJobINS_13RemoteAccountEED2Ev@Base 4.96.0
  (optional=templinst)_ZN6Attica7ListJobINS_14PublisherFieldEE5parseERK7QString@Base 4.96.0
  (optional=templinst)_ZN6Attica7ListJobINS_14PublisherFieldEEC1EPNS_17PlatformDependentERK15QNetworkRequest@Base 4.96.0
  (optional=templinst)_ZN6Attica7ListJobINS_14PublisherFieldEEC2EPNS_17PlatformDependentERK15QNetworkRequest@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica7ListJobINS_14PublisherFieldEED0Ev@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica7ListJobINS_14PublisherFieldEED1Ev@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica7ListJobINS_14PublisherFieldEED2Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica7ListJobINS_14PublisherFieldEED0Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica7ListJobINS_14PublisherFieldEED1Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica7ListJobINS_14PublisherFieldEED2Ev@Base 4.96.0
  (optional=templinst)_ZN6Attica7ListJobINS_15BuildServiceJobEE5parseERK7QString@Base 4.96.0
  (optional=templinst)_ZN6Attica7ListJobINS_15BuildServiceJobEEC1EPNS_17PlatformDependentERK15QNetworkRequest@Base 4.96.0
  (optional=templinst)_ZN6Attica7ListJobINS_15BuildServiceJobEEC2EPNS_17PlatformDependentERK15QNetworkRequest@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica7ListJobINS_15BuildServiceJobEED0Ev@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica7ListJobINS_15BuildServiceJobEED1Ev@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica7ListJobINS_15BuildServiceJobEED2Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica7ListJobINS_15BuildServiceJobEED0Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica7ListJobINS_15BuildServiceJobEED1Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica7ListJobINS_15BuildServiceJobEED2Ev@Base 4.96.0
  (optional=templinst)_ZN6Attica7ListJobINS_18KnowledgeBaseEntryEE5parseERK7QString@Base 4.96.0
  (optional=templinst)_ZN6Attica7ListJobINS_18KnowledgeBaseEntryEEC1EPNS_17PlatformDependentERK15QNetworkRequest@Base 4.96.0
  (optional=templinst)_ZN6Attica7ListJobINS_18KnowledgeBaseEntryEEC2EPNS_17PlatformDependentERK15QNetworkRequest@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica7ListJobINS_18KnowledgeBaseEntryEED0Ev@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica7ListJobINS_18KnowledgeBaseEntryEED1Ev@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica7ListJobINS_18KnowledgeBaseEntryEED2Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica7ListJobINS_18KnowledgeBaseEntryEED0Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica7ListJobINS_18KnowledgeBaseEntryEED1Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica7ListJobINS_18KnowledgeBaseEntryEED2Ev@Base 4.96.0
  (optional=templinst)_ZN6Attica7ListJobINS_5EventEE5parseERK7QString@Base 4.96.0
  (optional=templinst)_ZN6Attica7ListJobINS_5EventEEC1EPNS_17PlatformDependentERK15QNetworkRequest@Base 4.96.0
  (optional=templinst)_ZN6Attica7ListJobINS_5EventEEC2EPNS_17PlatformDependentERK15QNetworkRequest@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica7ListJobINS_5EventEED0Ev@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica7ListJobINS_5EventEED1Ev@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica7ListJobINS_5EventEED2Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica7ListJobINS_5EventEED0Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica7ListJobINS_5EventEED1Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica7ListJobINS_5EventEED2Ev@Base 4.96.0
  (optional=templinst)_ZN6Attica7ListJobINS_5ForumEE5parseERK7QString@Base 4.96.0
  (optional=templinst)_ZN6Attica7ListJobINS_5ForumEEC1EPNS_17PlatformDependentERK15QNetworkRequest@Base 4.96.0
  (optional=templinst)_ZN6Attica7ListJobINS_5ForumEEC2EPNS_17PlatformDependentERK15QNetworkRequest@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica7ListJobINS_5ForumEED0Ev@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica7ListJobINS_5ForumEED1Ev@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica7ListJobINS_5ForumEED2Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica7ListJobINS_5ForumEED0Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica7ListJobINS_5ForumEED1Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica7ListJobINS_5ForumEED2Ev@Base 4.96.0
  (optional=templinst)_ZN6Attica7ListJobINS_5TopicEE5parseERK7QString@Base 4.96.0
  (optional=templinst)_ZN6Attica7ListJobINS_5TopicEEC1EPNS_17PlatformDependentERK15QNetworkRequest@Base 4.96.0
  (optional=templinst)_ZN6Attica7ListJobINS_5TopicEEC2EPNS_17PlatformDependentERK15QNetworkRequest@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica7ListJobINS_5TopicEED0Ev@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica7ListJobINS_5TopicEED1Ev@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica7ListJobINS_5TopicEED2Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica7ListJobINS_5TopicEED0Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica7ListJobINS_5TopicEED1Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica7ListJobINS_5TopicEED2Ev@Base 4.96.0
  (optional=templinst)_ZN6Attica7ListJobINS_6FolderEE5parseERK7QString@Base 4.96.0
  (optional=templinst)_ZN6Attica7ListJobINS_6FolderEEC1EPNS_17PlatformDependentERK15QNetworkRequest@Base 4.96.0
  (optional=templinst)_ZN6Attica7ListJobINS_6FolderEEC2EPNS_17PlatformDependentERK15QNetworkRequest@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica7ListJobINS_6FolderEED0Ev@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica7ListJobINS_6FolderEED1Ev@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica7ListJobINS_6FolderEED2Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica7ListJobINS_6FolderEED0Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica7ListJobINS_6FolderEED1Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica7ListJobINS_6FolderEED2Ev@Base 4.96.0
  (optional=templinst)_ZN6Attica7ListJobINS_6PersonEE5parseERK7QString@Base 4.96.0
  (optional=templinst)_ZN6Attica7ListJobINS_6PersonEEC1EPNS_17PlatformDependentERK15QNetworkRequest@Base 4.96.0
  (optional=templinst)_ZN6Attica7ListJobINS_6PersonEEC2EPNS_17PlatformDependentERK15QNetworkRequest@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica7ListJobINS_6PersonEED0Ev@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica7ListJobINS_6PersonEED1Ev@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica7ListJobINS_6PersonEED2Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica7ListJobINS_6PersonEED0Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica7ListJobINS_6PersonEED1Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica7ListJobINS_6PersonEED2Ev@Base 4.96.0
  (optional=templinst)_ZN6Attica7ListJobINS_7CommentEE5parseERK7QString@Base 4.96.0
  (optional=templinst)_ZN6Attica7ListJobINS_7CommentEEC1EPNS_17PlatformDependentERK15QNetworkRequest@Base 4.96.0
  (optional=templinst)_ZN6Attica7ListJobINS_7CommentEEC2EPNS_17PlatformDependentERK15QNetworkRequest@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica7ListJobINS_7CommentEED0Ev@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica7ListJobINS_7CommentEED1Ev@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica7ListJobINS_7CommentEED2Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica7ListJobINS_7CommentEED0Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica7ListJobINS_7CommentEED1Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica7ListJobINS_7CommentEED2Ev@Base 4.96.0
  (optional=templinst)_ZN6Attica7ListJobINS_7ContentEE5parseERK7QString@Base 4.96.0
  (optional=templinst)_ZN6Attica7ListJobINS_7ContentEEC1EPNS_17PlatformDependentERK15QNetworkRequest@Base 4.96.0
  (optional=templinst)_ZN6Attica7ListJobINS_7ContentEEC2EPNS_17PlatformDependentERK15QNetworkRequest@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica7ListJobINS_7ContentEED0Ev@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica7ListJobINS_7ContentEED1Ev@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica7ListJobINS_7ContentEED2Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica7ListJobINS_7ContentEED0Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica7ListJobINS_7ContentEED1Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica7ListJobINS_7ContentEED2Ev@Base 4.96.0
  (optional=templinst)_ZN6Attica7ListJobINS_7LicenseEE5parseERK7QString@Base 4.96.0
  (optional=templinst)_ZN6Attica7ListJobINS_7LicenseEEC1EPNS_17PlatformDependentERK15QNetworkRequest@Base 4.96.0
  (optional=templinst)_ZN6Attica7ListJobINS_7LicenseEEC2EPNS_17PlatformDependentERK15QNetworkRequest@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica7ListJobINS_7LicenseEED0Ev@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica7ListJobINS_7LicenseEED1Ev@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica7ListJobINS_7LicenseEED2Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica7ListJobINS_7LicenseEED0Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica7ListJobINS_7LicenseEED1Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica7ListJobINS_7LicenseEED2Ev@Base 4.96.0
  (optional=templinst)_ZN6Attica7ListJobINS_7MessageEE5parseERK7QString@Base 4.96.0
  (optional=templinst)_ZN6Attica7ListJobINS_7MessageEEC1EPNS_17PlatformDependentERK15QNetworkRequest@Base 4.96.0
  (optional=templinst)_ZN6Attica7ListJobINS_7MessageEEC2EPNS_17PlatformDependentERK15QNetworkRequest@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica7ListJobINS_7MessageEED0Ev@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica7ListJobINS_7MessageEED1Ev@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica7ListJobINS_7MessageEED2Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica7ListJobINS_7MessageEED0Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica7ListJobINS_7MessageEED1Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica7ListJobINS_7MessageEED2Ev@Base 4.96.0
  (optional=templinst)_ZN6Attica7ListJobINS_7ProjectEE5parseERK7QString@Base 4.96.0
  (optional=templinst)_ZN6Attica7ListJobINS_7ProjectEEC1EPNS_17PlatformDependentERK15QNetworkRequest@Base 4.96.0
  (optional=templinst)_ZN6Attica7ListJobINS_7ProjectEEC2EPNS_17PlatformDependentERK15QNetworkRequest@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica7ListJobINS_7ProjectEED0Ev@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica7ListJobINS_7ProjectEED1Ev@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica7ListJobINS_7ProjectEED2Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica7ListJobINS_7ProjectEED0Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica7ListJobINS_7ProjectEED1Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica7ListJobINS_7ProjectEED2Ev@Base 4.96.0
  (optional=templinst)_ZN6Attica7ListJobINS_8ActivityEE5parseERK7QString@Base 4.96.0
  (optional=templinst)_ZN6Attica7ListJobINS_8ActivityEEC1EPNS_17PlatformDependentERK15QNetworkRequest@Base 4.96.0
  (optional=templinst)_ZN6Attica7ListJobINS_8ActivityEEC2EPNS_17PlatformDependentERK15QNetworkRequest@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica7ListJobINS_8ActivityEED0Ev@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica7ListJobINS_8ActivityEED1Ev@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica7ListJobINS_8ActivityEED2Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica7ListJobINS_8ActivityEED0Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica7ListJobINS_8ActivityEED1Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica7ListJobINS_8ActivityEED2Ev@Base 4.96.0
  (optional=templinst)_ZN6Attica7ListJobINS_8CategoryEE5parseERK7QString@Base 4.96.0
  (optional=templinst)_ZN6Attica7ListJobINS_8CategoryEEC1EPNS_17PlatformDependentERK15QNetworkRequest@Base 4.96.0
  (optional=templinst)_ZN6Attica7ListJobINS_8CategoryEEC2EPNS_17PlatformDependentERK15QNetworkRequest@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica7ListJobINS_8CategoryEED0Ev@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica7ListJobINS_8CategoryEED1Ev@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica7ListJobINS_8CategoryEED2Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica7ListJobINS_8CategoryEED0Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica7ListJobINS_8CategoryEED1Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica7ListJobINS_8CategoryEED2Ev@Base 4.96.0
  (optional=templinst)_ZN6Attica7ListJobINS_9PublisherEE5parseERK7QString@Base 4.96.0
  (optional=templinst)_ZN6Attica7ListJobINS_9PublisherEEC1EPNS_17PlatformDependentERK15QNetworkRequest@Base 4.96.0
  (optional=templinst)_ZN6Attica7ListJobINS_9PublisherEEC2EPNS_17PlatformDependentERK15QNetworkRequest@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica7ListJobINS_9PublisherEED0Ev@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica7ListJobINS_9PublisherEED1Ev@Base 4.96.0
- (optional=templinst|arch=amd64)_ZN6Attica7ListJobINS_9PublisherEED2Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica7ListJobINS_9PublisherEED0Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica7ListJobINS_9PublisherEED1Ev@Base 4.96.0
+ (optional=templinst|arch=!amd64)_ZN6Attica7ListJobINS_9PublisherEED2Ev@Base 4.96.0
  _ZN6Attica7Message10setSubjectERK7QString@Base 4.96.0
  _ZN6Attica7Message5setIdERK7QString@Base 4.96.0
  _ZN6Attica7Message5setToERK7QString@Base 4.96.0
  _ZN6Attica7Message6Parser8parseXmlER16QXmlStreamReader@Base 4.96.0
- (optional=gccinternal|arch=amd64)_ZN6Attica7Message6ParserD0Ev@Base 4.96.0
- (optional=gccinternal|arch=amd64)_ZN6Attica7Message6ParserD1Ev@Base 4.96.0
- (optional=gccinternal|arch=amd64)_ZN6Attica7Message6ParserD2Ev@Base 4.96.0
+ (optional=gccinternal|arch=!amd64)_ZN6Attica7Message6ParserD0Ev@Base 4.96.0
+ (optional=gccinternal|arch=!amd64)_ZN6Attica7Message6ParserD1Ev@Base 4.96.0
+ (optional=gccinternal|arch=!amd64)_ZN6Attica7Message6ParserD2Ev@Base 4.96.0
  _ZN6Attica7Message7setBodyERK7QString@Base 4.96.0
  _ZN6Attica7Message7setFromERK7QString@Base 4.96.0
  _ZN6Attica7Message7setSentERK9QDateTime@Base 4.96.0
@@ -973,9 +973,9 @@ libKF5Attica.so.5 libkf5attica5 #MINVER#
  _ZN6Attica7PostJobC2EPNS_17PlatformDependentERK15QNetworkRequestP9QIODevice@Base 4.96.0
  _ZN6Attica7PostJobC2EPNS_17PlatformDependentERK15QNetworkRequestRK10QByteArray@Base 4.96.0
  _ZN6Attica7PostJobC2EPNS_17PlatformDependentERK15QNetworkRequestRK4QMapI7QStringS7_E@Base 4.96.0
- (optional=gccinternal|arch=amd64)_ZN6Attica7PostJobD0Ev@Base 4.96.0
- (optional=gccinternal|arch=amd64)_ZN6Attica7PostJobD1Ev@Base 4.96.0
- (optional=gccinternal|arch=amd64)_ZN6Attica7PostJobD2Ev@Base 4.96.0
+ (optional=gccinternal|arch=!amd64)_ZN6Attica7PostJobD0Ev@Base 4.96.0
+ (optional=gccinternal|arch=!amd64)_ZN6Attica7PostJobD1Ev@Base 4.96.0
+ (optional=gccinternal|arch=!amd64)_ZN6Attica7PostJobD2Ev@Base 4.96.0
  _ZN6Attica7Project10setLicenseERK7QString@Base 4.96.0
  _ZN6Attica7Project10setSummaryERK7QString@Base 4.96.0
  _ZN6Attica7Project10setVersionERK7QString@Base 4.96.0
@@ -986,9 +986,9 @@ libKF5Attica.so.5 libkf5attica5 #MINVER#
  _ZN6Attica7Project20addExtendedAttributeERK7QStringS3_@Base 4.96.0
  _ZN6Attica7Project5setIdERK7QString@Base 4.96.0
  _ZN6Attica7Project6Parser8parseXmlER16QXmlStreamReader@Base 4.96.0
- (optional=gccinternal|arch=amd64)_ZN6Attica7Project6ParserD0Ev@Base 4.96.0
- (optional=gccinternal|arch=amd64)_ZN6Attica7Project6ParserD1Ev@Base 4.96.0
- (optional=gccinternal|arch=amd64)_ZN6Attica7Project6ParserD2Ev@Base 4.96.0
+ (optional=gccinternal|arch=!amd64)_ZN6Attica7Project6ParserD0Ev@Base 4.96.0
+ (optional=gccinternal|arch=!amd64)_ZN6Attica7Project6ParserD1Ev@Base 4.96.0
+ (optional=gccinternal|arch=!amd64)_ZN6Attica7Project6ParserD2Ev@Base 4.96.0
  _ZN6Attica7Project6setUrlERK7QString@Base 4.96.0
  _ZN6Attica7Project7setNameERK7QString@Base 4.96.0
  _ZN6Attica7ProjectC1ERKS0_@Base 4.96.0
@@ -1003,9 +1003,9 @@ libKF5Attica.so.5 libkf5attica5 #MINVER#
  _ZN6Attica8Activity19setAssociatedPersonERKNS_6PersonE@Base 4.96.0
  _ZN6Attica8Activity5setIdERK7QString@Base 4.96.0
  _ZN6Attica8Activity6Parser8parseXmlER16QXmlStreamReader@Base 4.96.0
- (optional=gccinternal|arch=amd64)_ZN6Attica8Activity6ParserD0Ev@Base 4.96.0
- (optional=gccinternal|arch=amd64)_ZN6Attica8Activity6ParserD1Ev@Base 4.96.0
- (optional=gccinternal|arch=amd64)_ZN6Attica8Activity6ParserD2Ev@Base 4.96.0
+ (optional=gccinternal|arch=!amd64)_ZN6Attica8Activity6ParserD0Ev@Base 4.96.0
+ (optional=gccinternal|arch=!amd64)_ZN6Attica8Activity6ParserD1Ev@Base 4.96.0
+ (optional=gccinternal|arch=!amd64)_ZN6Attica8Activity6ParserD2Ev@Base 4.96.0
  _ZN6Attica8Activity7setLinkERK4QUrl@Base 4.96.0
  _ZN6Attica8ActivityC1ERKS0_@Base 4.96.0
  _ZN6Attica8ActivityC1Ev@Base 4.96.0
@@ -1016,9 +1016,9 @@ libKF5Attica.so.5 libkf5attica5 #MINVER#
  _ZN6Attica8ActivityaSERKS0_@Base 4.96.0
  _ZN6Attica8Category5setIdERK7QString@Base 4.96.0
  _ZN6Attica8Category6Parser8parseXmlER16QXmlStreamReader@Base 4.96.0
- (optional=gccinternal|arch=amd64)_ZN6Attica8Category6ParserD0Ev@Base 4.96.0
- (optional=gccinternal|arch=amd64)_ZN6Attica8Category6ParserD1Ev@Base 4.96.0
- (optional=gccinternal|arch=amd64)_ZN6Attica8Category6ParserD2Ev@Base 4.96.0
+ (optional=gccinternal|arch=!amd64)_ZN6Attica8Category6ParserD0Ev@Base 4.96.0
+ (optional=gccinternal|arch=!amd64)_ZN6Attica8Category6ParserD1Ev@Base 4.96.0
+ (optional=gccinternal|arch=!amd64)_ZN6Attica8Category6ParserD2Ev@Base 4.96.0
  _ZN6Attica8Category7setNameERK7QString@Base 4.96.0
  _ZN6Attica8CategoryC1ERKS0_@Base 4.96.0
  _ZN6Attica8CategoryC1Ev@Base 4.96.0
@@ -1162,9 +1162,9 @@ libKF5Attica.so.5 libkf5attica5 #MINVER#
  _ZN6Attica9DeleteJobC2EPNS_17PlatformDependentERK15QNetworkRequest@Base 4.96.0
  _ZN6Attica9Publisher5setIdERK7QString@Base 4.96.0
  _ZN6Attica9Publisher6Parser8parseXmlER16QXmlStreamReader@Base 4.96.0
- (optional=gccinternal|arch=amd64)_ZN6Attica9Publisher6ParserD0Ev@Base 4.96.0
- (optional=gccinternal|arch=amd64)_ZN6Attica9Publisher6ParserD1Ev@Base 4.96.0
- (optional=gccinternal|arch=amd64)_ZN6Attica9Publisher6ParserD2Ev@Base 4.96.0
+ (optional=gccinternal|arch=!amd64)_ZN6Attica9Publisher6ParserD0Ev@Base 4.96.0
+ (optional=gccinternal|arch=!amd64)_ZN6Attica9Publisher6ParserD1Ev@Base 4.96.0
+ (optional=gccinternal|arch=!amd64)_ZN6Attica9Publisher6ParserD2Ev@Base 4.96.0
  _ZN6Attica9Publisher6setUrlERK7QString@Base 4.96.0
  _ZN6Attica9Publisher7setNameERK7QString@Base 4.96.0
  _ZN6Attica9Publisher8addFieldERKNS_5FieldE@Base 4.96.0
