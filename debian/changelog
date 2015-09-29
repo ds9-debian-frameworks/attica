@@ -1,10 +1,33 @@
 attica-kf5 (5.14.0-0ubuntu1) UNRELEASED; urgency=medium
 
+  [ Clive Johnston ]
+  * new upstream release
+
+  [ Scarlett Clark ]
+  * Vivid backport. 
+  * Manual merge, fix changelog failure.
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Tue, 29 Sep 2015 14:53:15 -0700  
+
+attica-kf5 (5.13.0-0ubuntu1) wily; urgency=medium
+
+  [ José Manuel Santamaría Lema ]
+  * Update symbols file:
+    - Mark as optional the previously non-optional symbols gone after building
+      with gcc 5
+    - Keep the optional symbols gone after building with gcc 5
+
+  [ Jonathan Riddell ]
+  * new upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 10 Aug 2015 12:45:37 +0200
+
+attica-kf5 (5.12.0-0ubuntu1) wily; urgency=medium
+
   * New upstream release
   * Vivid backport. 
-  * Vivid backport
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Tue, 29 Sep 2015 14:53:15 -0700
+ -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 03 Aug 2015 14:22:16 +0200
 
 attica-kf5 (5.11.0-1) unstable; urgency=medium
 
