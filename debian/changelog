@@ -1,9 +1,13 @@
-attica-kf5 (5.14.0-0ubuntu2) UNRELEASED; urgency=medium
+attica-kf5 (5.15.0-0ubuntu1) UNRELEASED; urgency=medium
 
+  [ Scarlett Clark ]
   * Fix control line 9 failure. 
   * Fix merge. 
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Tue, 29 Sep 2015 15:12:00 -0700
+  [ Jonathan Riddell ]
+  * new upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 05 Oct 2015 19:08:47 +0100
 
 attica-kf5 (5.14.0-0ubuntu1) wily; urgency=medium
 
