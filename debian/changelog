@@ -1,8 +1,8 @@
-attica-kf5 (5.19.0-1~) UNRELEASED; urgency=medium
+attica-kf5 (5.19.0-1) experimental; urgency=medium
 
   * New upstream release (5.19.0).
 
- -- Maximiliano Curia <maxy@debian.org>  Sat, 06 Feb 2016 19:01:15 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 13 Feb 2016 15:16:10 +0100
 
 attica-kf5 (5.18.0-1) experimental; urgency=medium
 
