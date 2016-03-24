@@ -1,13 +1,14 @@
-attica-kf5 (5.20.0-1~2.gbp61633c) UNRELEASED; urgency=medium
+attica-kf5 (5.20.0-1~3.gbp5d997a) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @61633cc17636713084bcef5ca52e47eb42ca135d **
+  ** SNAPSHOT build @5d997ae7674852a8e96817ba2ab69cd38d473324 **
 
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
   * Add upstream metadata (DEP-12)
   * debian/control: Update Vcs-Browser and Vcs-Git fields
   * UNRELEASED
+  * UNRELEASED
 
- -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Thu, 24 Mar 2016 16:46:55 +0100
+ -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Thu, 24 Mar 2016 19:11:06 +0100
 
 attica-kf5 (5.19.0-1) experimental; urgency=medium
 
