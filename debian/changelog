@@ -1,6 +1,6 @@
-attica-kf5 (5.20.0-1~10.gbpc9732e) UNRELEASED; urgency=medium
+attica-kf5 (5.20.0-1~11.gbpf264e4) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @c9732e884d877ef3198f1fca0293bc3f66769877 **
+  ** SNAPSHOT build @f264e4f7c3dd8fc568f651dd40b070875fa9cce3 **
 
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
   * Add upstream metadata (DEP-12)
@@ -14,8 +14,9 @@ attica-kf5 (5.20.0-1~10.gbpc9732e) UNRELEASED; urgency=medium
   * UNRELEASED
   * UNRELEASED
   * UNRELEASED
+  * UNRELEASED
 
- -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Mon, 28 Mar 2016 16:39:07 +0200
+ -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Mon, 28 Mar 2016 22:39:08 +0200
 
 attica-kf5 (5.19.0-1) experimental; urgency=medium
 
