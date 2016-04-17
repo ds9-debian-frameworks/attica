@@ -1,6 +1,6 @@
-attica-kf5 (5.21.0-1~1.gbp206ac2) UNRELEASED; urgency=medium
+attica-kf5 (5.21.0-1~2.gbp9db1a0) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @206ac2c1c9b90cd5fea3a9a7b11e43f84ebf5b93 **
+  ** SNAPSHOT build @9db1a0e18680280b54e1b35a7b7d55e333d2d49c **
 
   [ Maximiliano Curia ]
   ** SNAPSHOT build @ebfeb784b6fac72304e790fe479d96937d2930b8 **
@@ -28,10 +28,11 @@ attica-kf5 (5.21.0-1~1.gbp206ac2) UNRELEASED; urgency=medium
 
   [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
+  * Bump Standards-Version to 3.9.8
 
   [ Maximiliano Curia ]
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Sun, 10 Apr 2016 09:39:27 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sun, 17 Apr 2016 15:11:55 +0200
 
 attica-kf5 (5.19.0-1) experimental; urgency=medium
 
