@@ -10,6 +10,19 @@ attica-kf5 (5.20.0-0neon) wily; urgency=medium
 
  -- Neon CI <neon@kde.org>  Fri, 01 Apr 2016 11:03:42 +0000
 
+attica-kf5 (5.19.0-1) experimental; urgency=medium
+
+  * New upstream release (5.19.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 13 Feb 2016 15:16:10 +0100
+
+attica-kf5 (5.18.0-1) experimental; urgency=medium
+
+  * New upstream release (5.17.0).
+  * New upstream release (5.18.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 27 Jan 2016 13:33:50 +0100
+
 attica-kf5 (5.18.0-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Scarlett Clark ]
