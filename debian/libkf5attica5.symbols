@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.21.0 amd64 armhf i386
+# SymbolsHelper-Confirmed: 5.23.0 amd64
 libKF5Attica.so.5 libkf5attica5 #MINVER#
  (optional=templinst)_ZN6Attica10ItemPutJobINS_11AchievementEE5parseERK7QString@Base 4.96.0
  (optional=templinst)_ZN6Attica10ItemPutJobINS_11AchievementEEC1EPNS_17PlatformDependentERK15QNetworkRequestP9QIODevice@Base 4.96.0
@@ -211,7 +211,7 @@ libKF5Attica.so.5 libkf5attica5 #MINVER#
  _ZN6Attica15ProviderManager13providerAddedERKNS_8ProviderE@Base 4.96.0
  _ZN6Attica15ProviderManager15addProviderFileERK4QUrl@Base 4.96.0
  _ZN6Attica15ProviderManager16staticMetaObjectE@Base 4.96.0
- _ZN6Attica15ProviderManager17parseProviderFileERK7QStringS3_@Base 4.96.0
+ _ZN6Attica15ProviderManager17parseProviderFileERK7QStringRK4QUrl@Base 5.23.0
  _ZN6Attica15ProviderManager18addProviderFromXmlERK7QString@Base 4.96.0
  _ZN6Attica15ProviderManager20defaultProviderFilesEv@Base 4.96.0
  _ZN6Attica15ProviderManager20loadDefaultProvidersEv@Base 4.96.0
@@ -1029,6 +1029,7 @@ libKF5Attica.so.5 libkf5attica5 #MINVER#
  _ZNK6Attica15BuildServiceJob9isRunningEv@Base 4.96.0
  _ZNK6Attica15BuildServiceJob9projectIdEv@Base 4.96.0
  _ZNK6Attica15ProviderManager10metaObjectEv@Base 4.96.0
+ _ZNK6Attica15ProviderManager11providerForERK4QUrl@Base 5.23.0
  _ZNK6Attica15ProviderManager13providerByUrlERK4QUrl@Base 4.96.0
  _ZNK6Attica15ProviderManager13providerFilesEv@Base 4.96.0
  _ZNK6Attica15ProviderManager8containsERK7QString@Base 4.96.0
