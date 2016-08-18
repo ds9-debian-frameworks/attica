@@ -1,17 +1,12 @@
-attica-kf5 (5.25.0-1~2.gbp225a38) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @225a38d2114c2639d4cb17d333b1a57fdeaeaba8 **
+attica-kf5 (5.25.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]
-  ** SNAPSHOT build @eb72c25cc9b60711921a23446a8b5f2ac1f32229 **
-
-  * Update build-deps and deps with the info from cmake
   * Update build-deps and deps with the info from cmake
 
   [ Maximiliano Curia ]
   * Bump group breaks (5.25)
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Wed, 17 Aug 2016 23:39:19 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 18 Aug 2016 17:17:29 +0200
 
 attica-kf5 (5.23.0-1) unstable; urgency=medium
 
