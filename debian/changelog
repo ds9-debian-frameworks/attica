@@ -1,3 +1,11 @@
+attica-kf5 (5.26.0-1~1.gbp86a459) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @86a459fd4f7ff0e43095bc3efab67e03da6cc91d **
+
+  * Update build-deps and deps with the info from cmake
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 10 Sep 2016 14:59:27 +0200
+
 attica-kf5 (5.25.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]
