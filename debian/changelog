@@ -1,10 +1,12 @@
-attica-kf5 (5.26.0-1~1.gbp86a459) UNRELEASED; urgency=medium
+attica-kf5 (5.26.0-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @86a459fd4f7ff0e43095bc3efab67e03da6cc91d **
-
+  [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 10 Sep 2016 14:59:27 +0200
+  [ Maximiliano Curia ]
+  * Bump group breaks (5.26)
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 29 Sep 2016 11:53:24 +0200
 
 attica-kf5 (5.25.0-1) unstable; urgency=medium
 
