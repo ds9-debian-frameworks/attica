@@ -4,6 +4,16 @@ attica-kf5 (5.27.0-0neon) xenial; urgency=medium
 
  -- Neon CI <neon@kde.org>  Sat, 08 Oct 2016 11:28:40 +0000
 
+attica-kf5 (5.26.0-1) unstable; urgency=medium
+
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+
+  [ Maximiliano Curia ]
+  * Bump group breaks (5.26)
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 29 Sep 2016 11:53:24 +0200
+
 attica-kf5 (5.26.0-0neon) xenial; urgency=medium
 
   * New release
