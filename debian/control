@@ -5,7 +5,7 @@ Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake (>= 2.8.12),
                debhelper (>= 9),
-               extra-cmake-modules (>= 5.26.0~),
+               extra-cmake-modules (>= 5.27.0~),
                pkg-kde-tools (>= 0.15.15ubuntu1~),
                qtbase5-dev (>= 5.5.0~)
 Standards-Version: 3.9.8
@@ -29,7 +29,7 @@ Description: development files for libkf5attica5
  This package is part of KDE Frameworks 5.
  .
  This package contains the development header files.
-Breaks: libkf5newstuff-dev (<< 5.26), libkf5xmlgui-dev (<< 5.26)
+Breaks: libkf5newstuff-dev (<< 5.27), libkf5xmlgui-dev (<< 5.27)
 
 Package: libkf5attica5
 Architecture: any
@@ -43,4 +43,4 @@ Description: Qt library that implements the Open Collaboration Services API
  persons and contents.
  .
  This package is part of KDE Frameworks 5.
-Breaks: libkf5newstuff5 (<< 5.26), libkf5xmlgui5 (<< 5.26)
+Breaks: libkf5newstuff5 (<< 5.27), libkf5xmlgui5 (<< 5.27)
