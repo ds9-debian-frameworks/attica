@@ -1,10 +1,13 @@
-attica-kf5 (5.28.0-1~1.gbp9fd6a0) UNRELEASED; urgency=medium
+attica-kf5 (5.28.0-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @9fd6a00e4fbeb9598aaddbcfc388e95c3ebacdb9 **
-
+  [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Tue, 15 Nov 2016 16:39:26 +0100
+  [ Maximiliano Curia ]
+  * New upstream release (5.28).
+  * Bump group breaks (5.28)
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 18 Nov 2016 15:56:19 +0100
 
 attica-kf5 (5.27.0-1) unstable; urgency=medium
 
