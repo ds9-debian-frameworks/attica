@@ -1,3 +1,9 @@
+attica-kf5 (5.30.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Mon, 16 Jan 2017 13:39:09 +0000
+
 attica-kf5 (5.29.0-0neon) xenial; urgency=medium
 
   * New release
