@@ -1,3 +1,9 @@
+attica-kf5 (5.35.0-1~) UNRELEASED; urgency=medium
+
+  * New upstream release (5.35.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 26 Jun 2017 17:23:08 +0200
+
 attica-kf5 (5.28.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]
