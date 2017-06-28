@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.23.0 amd64
+# SymbolsHelper-Confirmed: 5.35.0 amd64
 libKF5Attica.so.5 libkf5attica5 #MINVER#
  (optional=templinst)_ZN6Attica10ItemPutJobINS_11AchievementEE5parseERK7QString@Base 4.96.0
  (optional=templinst)_ZN6Attica10ItemPutJobINS_11AchievementEEC1EPNS_17PlatformDependentERK15QNetworkRequestP9QIODevice@Base 4.96.0
@@ -792,6 +792,7 @@ libKF5Attica.so.5 libkf5attica5 #MINVER#
  _ZN6Attica8ActivityD1Ev@Base 4.96.0
  _ZN6Attica8ActivityD2Ev@Base 4.96.0
  _ZN6Attica8ActivityaSERKS0_@Base 4.96.0
+ _ZN6Attica8Category14setDisplayNameERK7QString@Base 5.35.0
  _ZN6Attica8Category5setIdERK7QString@Base 4.96.0
  _ZN6Attica8Category6Parser8parseXmlER16QXmlStreamReader@Base 4.96.0
  _ZN6Attica8Category7setNameERK7QString@Base 4.96.0
@@ -1261,6 +1262,7 @@ libKF5Attica.so.5 libkf5attica5 #MINVER#
  _ZNK6Attica8Activity7isValidEv@Base 4.96.0
  _ZNK6Attica8Activity7messageEv@Base 4.96.0
  _ZNK6Attica8Activity9timestampEv@Base 4.96.0
+ _ZNK6Attica8Category11displayNameEv@Base 5.35.0
  _ZNK6Attica8Category2idEv@Base 4.96.0
  _ZNK6Attica8Category4nameEv@Base 4.96.0
  _ZNK6Attica8Category6Parser10xmlElementEv@Base 4.96.0
