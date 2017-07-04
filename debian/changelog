@@ -1,8 +1,16 @@
-attica-kf5 (5.35.0-1~) UNRELEASED; urgency=medium
+attica-kf5 (5.35.0-1~1) UNRELEASED; urgency=medium
 
+  [ Maximiliano Curia ]
   * New upstream release (5.35.0).
+  * Bump Standards-Version to 4.0.0.
+  * Update build-deps and deps with the info from cmake
+  * Bump group breaks (5.35)
+  * Update symbols files.
 
- -- Maximiliano Curia <maxy@debian.org>  Mon, 26 Jun 2017 17:23:08 +0200
+  [ Raymond Wooninck ]
+  * Add gpg signature
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 04 Jul 2017 11:27:59 +0200
 
 attica-kf5 (5.28.0-1) unstable; urgency=medium
 
