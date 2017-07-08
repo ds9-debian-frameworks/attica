@@ -29,7 +29,7 @@ Description: development files for libkf5attica5
  This package is part of KDE Frameworks 5.
  .
  This package contains the development header files.
-Breaks: libkf5newstuff-dev (<< 5.35), libkf5xmlgui-dev (<< 5.35)
+Breaks: libkf5newstuff-dev (<< 5.36), libkf5xmlgui-dev (<< 5.36)
 
 Package: libkf5attica5
 Architecture: any
@@ -43,4 +43,6 @@ Description: Qt library that implements the Open Collaboration Services API
  persons and contents.
  .
  This package is part of KDE Frameworks 5.
-Breaks: libkf5newstuff5 (<< 5.35), libkf5xmlgui5 (<< 5.35)
+Breaks: libkf5newstuff5 (<< 5.36),
+        libkf5newstuffcore5 (<< 5.36),
+        libkf5xmlgui5 (<< 5.36)
