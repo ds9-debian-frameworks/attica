@@ -50,6 +50,7 @@ Description: Qt library that implements the Open Collaboration Services API (doc
  This package is part of KDE Frameworks 5.
  .
  This package contains the qch documentation files.
+Section: doc
 
 Package: libkf5attica5
 Architecture: any
