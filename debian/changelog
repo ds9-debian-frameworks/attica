@@ -1,8 +1,18 @@
-attica-kf5 (5.37.0-1~) UNRELEASED; urgency=medium
+attica-kf5 (5.37.0-1) experimental; urgency=medium
 
+  [ Maximiliano Curia ]
   * New upstream release (5.37.0).
+  * Update build-deps and deps with the info from cmake
+  * Bump group breaks (5.37)
+  * Add a libkf5attica-doc package for the qch files
+  * Bump Standards-Version to 4.0.1.
+  * Set section for the doc package
+  * Release to experimental
 
- -- Maximiliano Curia <maxy@debian.org>  Mon, 14 Aug 2017 13:05:11 +0200
+  [ Jonathan Riddell ]
+  * update .install
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 16 Aug 2017 10:41:45 +0200
 
 attica-kf5 (5.36.0-1) experimental; urgency=medium
 
