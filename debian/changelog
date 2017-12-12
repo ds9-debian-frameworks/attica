@@ -271,16 +271,6 @@ attica-kf5 (5.18.0-1) experimental; urgency=medium
 
  -- Maximiliano Curia <maxy@debian.org>  Wed, 27 Jan 2016 13:33:50 +0100
 
-attica-kf5 (5.18.0-0ubuntu1) UNRELEASED; urgency=medium
-
-  [ Scarlett Clark ]
-  * New upstream release Xenial
-
-  [ Philip Muškovac ]
-  * New upstream release
-
- -- Philip Muškovac <yofel@kubuntu.org>  Wed, 06 Jan 2016 14:53:54 +0100
-
 attica-kf5 (5.16.0-1) unstable; urgency=medium
 
   * New upstream release (5.16.0).
@@ -300,17 +290,11 @@ attica-kf5 (5.15.0-0ubuntu2) xenial; urgency=medium
 
  -- Philip Muškovac <yofel@kubuntu.org>  Tue, 03 Nov 2015 15:34:27 +0100
 
-attica-kf5 (5.15.0-0ubuntu1) UNRELEASED; urgency=medium
-
-  * Vivid backport
-
- -- Scarlett Clark <sgclark@kubuntu.org>  Thu, 08 Oct 2015 10:52:59 -0700
-
 attica-kf5 (5.15.0-0ubuntu1) wily; urgency=medium
 
   [ Scarlett Clark ]
-  * Fix control line 9 failure. 
-  * Fix merge. 
+  * Fix control line 9 failure.
+  * Fix merge.
 
   [ Jonathan Riddell ]
   * new upstream release
@@ -329,9 +313,9 @@ attica-kf5 (5.14.0-0ubuntu1) wily; urgency=medium
   * new upstream release
 
   [ Scarlett Clark ]
-  * Vivid backport. 
+  * Vivid backport.
   * Manual merge, fix changelog failure.
-  * Merge nightmare. 
+  * Merge nightmare.
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Tue, 29 Sep 2015 14:53:15 -0700
 
@@ -371,7 +355,7 @@ attica-kf5 (5.12.0-1) unstable; urgency=medium
 attica-kf5 (5.12.0-0ubuntu1) wily; urgency=medium
 
   * New upstream release
-  * Vivid backport. 
+  * Vivid backport.
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 03 Aug 2015 14:22:16 +0200
 
