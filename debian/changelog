@@ -1,8 +1,14 @@
-attica-kf5 (5.41.0-1~) UNRELEASED; urgency=medium
+attica-kf5 (5.41.0-1~1) UNRELEASED; urgency=medium
 
+  [ Maximiliano Curia ]
   * New revision
+  * Bump to Standards-Version 4.1.2
+  * Update copyright file
 
- -- Maximiliano Curia <maxy@debian.org>  Tue, 12 Dec 2017 07:57:21 -0300
+  [ Helmut Grohne ]
+  * Fix FTCBFS: Annotate libqt5sql5-sqlite with :native. (Closes: 883113)
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 12 Dec 2017 08:21:11 -0300
 
 attica-kf5 (5.41.0-0neon) xenial; urgency=medium
 
